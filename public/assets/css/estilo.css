@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Lato-Black.ttf);
+}
+
+
+
+
+.color{
+	background-color: red;
+}
+
+.color2{
+	background-color: blue;
+}
+
+.padding{
+	padding-top: 15px;
+}
+
+
+.borde-bot{
+	
+	border-bottom: 1px solid #000000;
+}
+
+.borde-izquierda{
+	border-left :1px solid #000000;
+}
+
+.sprite-fb{
+
+	width: 25px;
+	height: 25px;
+	background-position: -224px -140px;
+	position: absolute;
+
+}
+
+.sprite {
+background: url(../img/botones.png);
+background-repeat: no-repeat;
+text-indent: -9999px;
+display: inline-block;
+}
+
+.qs{
+	font-family: myFirstFont;
+	font-size: 10px;
+	text-align: center;
+}
