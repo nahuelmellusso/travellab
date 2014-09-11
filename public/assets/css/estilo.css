@@ -41,7 +41,16 @@
 	z-index: -1;
 }
 
-
+.fb:hover{
+	width: 54px;
+	height: 53px;
+	background: url(../img/fb-hover.png) !important;
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: 8px -2px;
+	background-size: 35px 36px;
+	z-index: -1;
+}
 
 .tw{
 	width: 54px;

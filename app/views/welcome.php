@@ -15,8 +15,8 @@
       	<div class="small-4 large-4 columns  borde-izquierda qs">Cont&aacute;ctenos</div>
       	<div class="small-4 borde-izquierda columns">	
       		<div class="row">
-      			<div class="small-6 large-6 columns "><a class="fb" href="#"></a></div>
-      			<div class="small-6 large-6  columns "><a class="tw" href="#"></a></div>
+      			<div class="small-6 large-6 columns " ><a class="fb"  href="#"></a></div>
+      			<div class="small-6 large-6  columns " ><a class="tw"  href="#"></a></div>
       		</div>
      	</div>	
     </div>
