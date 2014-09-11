@@ -11,15 +11,18 @@
   <body>
     
     <div class="row padding borde-bot">
-      	<div class="small-4 large-4  columns color qs">Quienes somos</div>
-      	<div class="small-4 large-4 columns color2 borde-izquierda qs">Cont&aocute;ctenos</div>
-      	<div class="small-4 borde-izquierda columns color">	
+      	<div class="small-4 large-4  columns qs">Quienes somos</div>
+      	<div class="small-4 large-4 columns  borde-izquierda qs">Cont&aacute;ctenos</div>
+      	<div class="small-4 borde-izquierda columns">	
       		<div class="row">
-      			<div class="small-6 large-6 columns ">...</div>
-      			<div class="small-6 large-6  columns ">...</div>
+      			<div class="small-6 large-6 columns "><a class="fb" href="#"></a></div>
+      			<div class="small-6 large-6  columns "><a class="tw" href="#"></a></div>
       		</div>
      	</div>	
     </div>
+
+
+
         
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/foundation.min.js"></script>
