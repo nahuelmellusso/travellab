@@ -110,8 +110,14 @@
 
 
 .encontra{
-	background-color: #E82F2F;
+	background-color: #E13333;
 	padding-top: 20px;
+
+}
+
+.encontra2{
+	background-color: #E13333;
+	height: 300px;
 
 }
 
@@ -132,3 +138,14 @@
 	font-weight: 900;
 
 }
+
+.aventura{
+	background: url(../img/aventura.png);
+	background-repeat: no-repeat;
+	background-size: 71px  92px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+
+}
+

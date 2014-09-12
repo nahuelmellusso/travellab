@@ -23,15 +23,16 @@
 
 
 
-    <div class="row">
-      <div class="small-12 encontra">
+    <div class="row encontra ">
+      <div class="small-12 ">
         <p class="p-en-negr">¿Ya sabes qu&eacute; quer&eacute;s hacer en tus vacaciones?</p>
-        <p class="p-en">Encontr&aacute; tu viaje</p>
-       
+        <p class="p-en">Encontr&aacute; tu viaje</p>      
+      </div>
+      <div class="small-12 encontra2">
+        <a class="aventura" href=""></a>
       </div>
     </div>
-
-        
+       
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/foundation.min.js"></script>
     <script>
