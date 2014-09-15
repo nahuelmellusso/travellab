@@ -359,3 +359,41 @@
 	font-size: 10px;
 	font-weight: 900;
 }
+
+.at{
+	text-align: center;
+	font-family: lato-regular;
+	font-size: 10px;
+	font-weight: 500;
+}
+
+.reco{
+	background-color: black;
+	text-align: center;
+}
+
+.rec-tit{
+	padding-top: 20px;
+	color:#DB0E0E; 
+	font-size: 14px;
+	font-family: lato-black;
+}
+
+.rec-vin{
+	text-align: center;
+	font-family: lato-italic;
+	font-size: 10px;
+	font-weight: 900;
+	color: white;
+}
+
+.naranjos{
+	background-image: url(../img/naranjos.png);
+	background-repeat: no-repeat;
+	background-size: 100px  100px;
+	background-position: center center;
+	position: relative;
+	display: block;
+	text-align: center;
+	z-index: 1;	
+}

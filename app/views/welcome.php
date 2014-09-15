@@ -64,11 +64,19 @@
             <p class="lr">o complet&aacute; el <a style="color:red" href="">formulario</a></p>
           </div>
           <div class="small-12 columns">
-            <p class="lr esp auto">No queremos que te preocupes por nada, por eso<br>
-            te regalamos 1 hora de <span>estacionamiento GRATIS</span></p>
+            <p class="at esp auto">No queremos que te preocupes por nada, por eso<br>
+            te regalamos 1 hora de <span style="font-weight:bold;">estacionamiento GRATIS</span></p>
           </div>
         </div>
       </div>
+     </div>
+
+     <div class="row">
+        <div class="small-12 small-centered columns reco">
+          <p class="rec-tit">RECOMENDAMOS</p>
+          <p class="rec-vin marg">Empresas vinculadas</p>
+          <a class="naranjos" href=""></a>
+        </div>
      </div> 
    
     	
