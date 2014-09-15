@@ -278,3 +278,84 @@
 	padding-top: 20px;
 }
 
+
+
+.esp{
+	font-size: 14px;
+	font-family: lato-black;
+	color:#DB0E0E;
+	text-align: center;
+	font-weight: 900;
+	padding-top: 67px;
+
+
+}
+
+.tel{
+	background-image: url(../img/tel.png);
+	background-repeat: no-repeat;
+	background-size: 32px  42px;
+	background-position: center center;
+	position: relative;
+	display: block;
+
+	z-index: -1;	
+}
+
+.punto{
+	background-image: url(../img/punto.png);
+	background-repeat: no-repeat;
+	background-size: 32px  42px;
+	background-position: center center;
+	position: relative;
+	display: block;
+
+	z-index: -1;	
+}
+
+.escribinos{
+	background-image: url(../img/sobre.png);
+	background-repeat: no-repeat;
+	background-size: 43px  35px;
+	background-position: center center;
+	position: relative;
+	display: block;
+
+	z-index: -1;	
+}
+
+.auto{
+	background-image: url(../img/auto.png);
+	background-repeat: no-repeat;
+	background-size: 43px  35px;
+	background-position: center center;
+	position: relative;
+	display: block;
+
+	z-index: -1;	
+}
+
+.marg{
+	margin-top: -20px;
+}
+
+.tfg{
+	text-align: center;
+	font-family: lato-Light;	
+	font-size: 16px;
+}
+
+.tf{
+	text-align: center;
+	font-family: lato-Light;
+	font-size: 13px;
+	
+
+}
+
+.lr{
+	text-align: center;
+	font-family: lato-italic;
+	font-size: 10px;
+	font-weight: 900;
+}

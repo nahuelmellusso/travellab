@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Travel-lab</title>
     <link rel="stylesheet" href="assets/css/foundation.css" />
      <link rel="stylesheet" href="assets/css/estilo.css" />
     <script src="assets/js/vendor/modernizr.js"></script>
@@ -48,15 +48,25 @@
         <p class="p-en-negr">¿Que est&aacute;s esperando?</p>
         <p class="p-en">Comenz&aacute; a planificar tus vacaciones</p>
         <div class="row">
-        	<div class="small-6 columns">
-        		<p>LLAMANOS</p>
+        	<div class="small-12 small-centered marg columns">
+        		<p class="esp tel">LLAMANOS</p>
+            <p class="tf">+54 223 <span class="tfg">4910869</span></p>
+            <p class="lr">Lineas Rotativas</p>
         	</div>
-        	<div class="small-6 columns">
-        		<p>ESCRIBINOS</p>
+        	<div class="small-12 columns">
+        		<p class="esp punto">VENITE A LA OFI</p>
+            <p class="tfg">Rivadavia 2678, local 5. MDQ</p>
+            <p class="lr">¿No sabes como llegar?<span style="color:red"> Mir&aacute; el mapa</span></p>
         	</div>
-        	<div class="small-6 small-offset-3">
-        		<p>VENITE A LA OFI</p>
-        	</div>
+          <div class="small-12 columns">
+            <p class="esp escribinos">ESCRIBINOS</p>
+            <p class="tfg">Consultas@travel-lab.com.ar</p>
+            <p class="lr">o complet&aacute; el <a style="color:red" href="">formulario</a></p>
+          </div>
+          <div class="small-12 columns">
+            <p class="lr esp auto">No queremos que te preocupes por nada, por eso<br>
+            te regalamos 1 hora de <span>estacionamiento GRATIS</span></p>
+          </div>
         </div>
       </div>
      </div> 
