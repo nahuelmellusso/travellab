@@ -390,10 +390,54 @@
 .naranjos{
 	background-image: url(../img/naranjos.png);
 	background-repeat: no-repeat;
-	background-size: 100px  100px;
+	background-size: 170px  79px;
 	background-position: center center;
 	position: relative;
-	display: block;
+	width: 200px;
+	height: 110px;
+	z-index: 1;
+	display: inline-block;
 	text-align: center;
-	z-index: 1;	
+	border-top: solid;
+	border-top-color: #444343;
+	border-top-width: 1px;
+	border-bottom: solid;
+	border-bottom-color: #444343;
+	border-bottom-width: 1px;	
+	
 }
+
+.travel{
+
+	background-image: url(../img/travel.png);
+	background-repeat: no-repeat;
+	background-size: 160px  95px;
+	background-position: center center;
+	position: relative;
+	width: 200px;
+	height: 110px;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+	
+
+}
+
+.borde{
+	border-top: solid;
+	border-top-color: #444343;
+	border-top-width: 2px;
+	border-bottom: solid;
+	border-bottom-color: #444343;
+	border-bottom-width: 2px;
+
+}
+
+.seccion-lista{
+
+	text-align: center;
+	font-family: lato-regular;
+	color: white;
+	font-size: 12px;
+}
+

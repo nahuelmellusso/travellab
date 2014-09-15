@@ -75,7 +75,21 @@
         <div class="small-12 small-centered columns reco">
           <p class="rec-tit">RECOMENDAMOS</p>
           <p class="rec-vin marg">Empresas vinculadas</p>
-          <a class="naranjos" href=""></a>
+          <ul>
+          	<li><a class="naranjos text-centered" href="#"></a></li>
+          	<li><a class="travel text-centered" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="small-12 columns  reco marg">
+        	<div class="row">
+        		<div class="small-10 borde small-offset-1 columns">
+        			<p class="rec-tit">SECCIONES</p>
+        				<ul class="inline-list seccion-lista">
+        				  <li><a href="#">Quienes somos</a></li>
+        				  <li><a href="#">Info &uacute;til</a></li>        				   	  
+        				</ul>
+        		</div>	
+        	</div>		
         </div>
      </div> 
    
