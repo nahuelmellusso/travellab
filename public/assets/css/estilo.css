@@ -117,7 +117,8 @@
 
 .encontra2{
 	background-color: #E13333;
-	height: 300px;
+	 
+	
 
 }
 
@@ -142,10 +143,138 @@
 .aventura{
 	background: url(../img/aventura.png);
 	background-repeat: no-repeat;
-	background-size: 71px  92px;
+	background-size: 52px  74px;
+	background-position: -2px -2px;
 	position: absolute;
 	width: 71px;
 	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;
 
+}
+
+.safari{
+	background: url(../img/safari.png);
+	background-repeat: no-repeat;
+	background-size: 52px  70px;
+	background-position: -2px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;
+
+}
+.playa{
+	background: url(../img/playa.png);
+	background-repeat: no-repeat;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;	
+
+}
+
+.tropical{
+	background: url(../img/tropical.png);
+	background-repeat: no-repeat;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;	
+
+}
+.escapadas{
+	background: url(../img/escapadas.png);
+	background-repeat: no-repeat;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;	
+
+}
+.cruceros{
+	background: url(../img/cruceros.png);
+	background-repeat: no-repeat;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;	
+
+}
+.cultura{
+	background: url(../img/cultura.png);
+	background-repeat: no-repeat;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;	
+
+}
+.lunademiel{
+	background: url(../img/luna.png);
+	background-repeat: no-repeat;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;	
+
+}
+
+.anos{
+	background: url(../img/15anos.png);
+	background-repeat: no-repeat;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;	
+
+}
+.pad{
+	padding-right: 20px;
+}
+
+.padd{
+	padding: 20px;
+	padding-top: 59px;
+}
+
+.list-hei{
+	height: 206px;
+	margin-top: -62px;
+}
+
+.padd-esperando{
+	padding-top: 20px;
 }
 

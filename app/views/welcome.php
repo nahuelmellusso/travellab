@@ -23,16 +23,47 @@
 
 
 
-    <div class="row encontra ">
-      <div class="small-12 ">
+    <div class="row encontra">
+      <div class="small-12 columns">
         <p class="p-en-negr">¿Ya sabes qu&eacute; quer&eacute;s hacer en tus vacaciones?</p>
-        <p class="p-en">Encontr&aacute; tu viaje</p>      
+        <p class="p-en">Encontr&aacute; tu viaje</p>
       </div>
-      <div class="small-12 encontra2">
-        <a class="aventura" href=""></a>
+      <div class="small-12  columns">
+      	<ul class="inline-list list-hei">
+      	  <li class="padd"><a class="aventura" href="#"></a></li>
+      	  <li class="padd"><a class="safari" href="#"></a></li>
+      	  <li class="padd"><a class="playa" href="#"></a></li> 
+      	  <li class="padd"><a class="tropical" href="#"></a></li> 
+      	  <li class="padd"><a class="escapadas" href="#"></a></li>  
+      	  <li class="padd pad"><a class="cruceros" href="#"></a></li>
+      	  <li class="padd"><a class="cultura" href="#"></a></li>
+      	  <li class="padd"><a class="lunademiel" href="#"></a></li> 
+      	  <li class="padd"><a class="anos" href="#"></a></li>      	  
+      	</ul>
       </div>
     </div>
-       
+   
+    <div class="row padd-esperando">
+      <div class="small-12 columns">
+        <p class="p-en-negr">¿Que est&aacute;s esperando?</p>
+        <p class="p-en">Comenz&aacute; a planificar tus vacaciones</p>
+        <div class="row">
+        	<div class="small-6 columns">
+        		<p>LLAMANOS</p>
+        	</div>
+        	<div class="small-6 columns">
+        		<p>ESCRIBINOS</p>
+        	</div>
+        	<div class="small-6 small-offset-3">
+        		<p>VENITE A LA OFI</p>
+        	</div>
+        </div>
+      </div>
+     </div> 
+   
+    	
+
+   
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/foundation.min.js"></script>
     <script>
