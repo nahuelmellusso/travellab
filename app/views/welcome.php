@@ -103,12 +103,35 @@
                   </div>       				  
                 </div>   
         		</div>
-              <div class="small-6 small-offset-3 borde small-centered columns">
+              <div class="small-6 small-offset-3 borde-enlace small-centered columns">
                 <p class="rec-tit">OTROS ENLACES</p>
+                	<div class="row">
+                		<div class="small-8 small-offset-2  columns">
+                   		<ul class="text-center no-bullet seccion-lista">                       
+                    		<li><a href="#">Cambio del d&iacute;a</a></li>
+                    		<li><a href="#">El clima</a></li>
+                   		</ul>
+                		</div>
+                	</div>	       				  
+              </div>
+              	<div class="small-10 borde small-centered small-offset-1 columns">
+                	<p class="rec-tit">NEWSLETTER</p>
+                	<p class="new-ngr">Todas las ofertas en tu casilla de entrada</p>
+                	<p class="news">Suscribite a nuestro newsletter semanal y<br>
+                	obten&eacute; las &uacute;ltimas ofertas y novedades</p>
+                	<div class="row"> 
+                		<div class="small-8  columns">
+                			<input type="email" placeholder="Email">
+                		</div>
+                		<div class="small-2 rojo small-centered columns">
+                			<a href="" role="button" class="rojo boton-rojo">Suscribirme</a>
+                		</div>	
+                	</div>
+                </div>	       				  
               </div>
         	</div>		
         </div>
-     </div> 
+  
    
     	
    

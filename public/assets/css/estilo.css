@@ -444,11 +444,7 @@
 
 }
 
-/*.seccion-lista > li {
-  display:inline-block;
-  padding:20px;
-}
-*/
+
 .seccion-lista > li > a:hover,a:link,a:active,a:visited{
 	text-decoration: none !important;
 	color: white !important;
@@ -480,4 +476,36 @@
 	color: white;
 	font-size: 14px;
 	font-weight: 900;
+}
+
+.borde-enlace{
+	border-top: solid;
+	border-top-color: #444343;
+	border-top-width: 1px;
+	
+
+}
+
+.new-ngr{
+	color: white;
+	font-family: lato-bold;
+	font-size: 14px;
+}
+
+.news{
+	color: white;
+	font-family: lato-regular;
+	font-size: 12px;
+}
+
+.boton-rojo{
+	text-align: center;
+	font-family: lato-regular;
+	font-size: 12px;
+	position: absolute;
+	
+}
+
+.rojo{
+	background-color: #DB0E0E;
 }
