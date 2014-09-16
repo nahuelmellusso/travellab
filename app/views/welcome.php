@@ -75,26 +75,42 @@
         <div class="small-12 small-centered columns reco">
           <p class="rec-tit">RECOMENDAMOS</p>
           <p class="rec-vin marg">Empresas vinculadas</p>
-          <ul>
+          <ul class="no-bullet">
           	<li><a class="naranjos text-centered" href="#"></a></li>
           	<li><a class="travel text-centered" href="#"></a></li>
           </ul>
         </div>
         <div class="small-12 columns  reco marg">
         	<div class="row">
-        		<div class="small-10 borde small-offset-1 columns">
+        		<div class="small-10 borde small-centered small-offset-1 columns">
         			<p class="rec-tit">SECCIONES</p>
-        				<ul class="inline-list seccion-lista">
-        				  <li><a href="#">Quienes somos</a></li>
-        				  <li><a href="#">Info &uacute;til</a></li>        				   	  
-        				</ul>
-        		</div>	
+                <div class="row">
+                  <div class="small-3 small-offset-2 columns">
+                    <ul class="text-center no-bullet seccion-lista">
+                     <li><a href="#">Quienes somos</a></li>
+                     <li><a href="#">Contactanos</a></li>
+                     <li><a href="#">Ofertas</a></li>
+                     <li><a href="#">Destinos</a></li>                     
+                   </ul>
+                  </div>
+                  <div class="small-3 small-pull-2 columns">
+                     <ul class="text-center no-bullet seccion-lista">                       
+                      <li><a href="#">Info &uacute;til</a></li>
+                      <li><a href="#">Beneficios</a></li>
+                      <li><a href="#">Hoteles</a></li>                     
+                      <li><a href="#">A&eacute;reos</a></li>
+                     </ul>
+                  </div>       				  
+                </div>   
+        		</div>
+              <div class="small-6 small-offset-3 borde small-centered columns">
+                <p class="rec-tit">OTROS ENLACES</p>
+              </div>
         	</div>		
         </div>
      </div> 
    
     	
-
    
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/foundation.min.js"></script>

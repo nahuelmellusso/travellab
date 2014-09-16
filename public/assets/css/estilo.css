@@ -427,18 +427,31 @@
 	border-top: solid;
 	border-top-color: #444343;
 	border-top-width: 2px;
-	border-bottom: solid;
-	border-bottom-color: #444343;
-	border-bottom-width: 2px;
+	
 
 }
 
 .seccion-lista{
 
-	text-align: center;
+	text-align: center !important;
 	font-family: lato-regular;
 	color: white;
 	font-size: 12px;
+}
+
+.seccion-lista > ul {
+  list-style-type:none;
+
+}
+
+/*.seccion-lista > li {
+  display:inline-block;
+  padding:20px;
+}
+*/
+.seccion-lista > li > a:hover,a:link,a:active,a:visited{
+	text-decoration: none !important;
+	color: white !important;
 }
 
 .put{
