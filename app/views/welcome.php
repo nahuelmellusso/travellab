@@ -21,7 +21,39 @@
      	</div>	
     </div>
 
+    <div class="row">
+      <div class="small-12 columns menu">
+        <div class="row collapse">
+            <div class="small-2 small-offset-1 columns">
+              <label class="menu-label">¿D&oacute;nde?</label>
+            </div>
+            <div class="small-6 columns">             
+              <input type="text"  placeholder="Ingresa un destino">
+            </div>
+            <div class="small-2 small-pull-1 columns put">                
+            </div>
+        </div>
+      </div>
 
+
+      <div class="small-12 columns menu">
+        <div class="row collapse">
+          <div class="small-2 small-offset-1 columns">
+            <label class="menu-label">¿Cuando?</label>
+          </div>
+          <div class="small-3 columns">             
+            <input type="date"  placeholder="Ingresa un destino">
+          </div>
+          <div class="small-3 columns">             
+            <input type="date"  placeholder="Ingresa un destino">
+          </div>
+          <div class="small-2 small-pull-1 columns cal">                
+        </div>
+      </div>
+    </div>
+
+
+    </div>
 
     <div class="row encontra">
       <div class="small-12 columns">
@@ -120,16 +152,28 @@
                 	<p class="news">Suscribite a nuestro newsletter semanal y<br>
                 	obten&eacute; las &uacute;ltimas ofertas y novedades</p>
                 	<div class="row"> 
-                		<div class="small-8  columns">
+                		<div class="small-8  columns" style="margin-left:12px;">
                 			<input type="email" placeholder="Email">
                 		</div>
                 		<div class="small-2 rojo small-centered columns">
                 			<a href="" role="button" class="rojo boton-rojo">Suscribirme</a>
-                		</div>	
+                		</div>
+                    <div class="small-6 small-pull-3 borde-enlace pad-fb-tw-rojo columns">
+                        <ul class="text-center no-bullet">
+                        <li><a class="fb-rojo" href="#"></a></li>
+                        <li><a class="tw-rojo" href="#"></a></li>                      
+                      </ul>
+                    </div>	
                 	</div>
                 </div>	       				  
               </div>
         	</div>		
+        </div>
+
+        <div class="row">
+          <div class="small-12 small-centered columns">
+            <p class="data-fiscal">2014.TRAVELLAB.Operadores tur&iacute;sticos desde 1989|<span>E.V.Y.T.LEG.10122 DISP.050/99</span></p>
+          </div>
         </div>
   
    

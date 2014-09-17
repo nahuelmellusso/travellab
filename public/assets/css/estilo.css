@@ -463,6 +463,19 @@
 	z-index: 1;	
 }
 
+.cal{
+	background-image: url(../img/menu_calendario.png);
+	background-repeat: no-repeat;
+	background-size: 40px  37px;
+	background-position: 14px 0px;
+	position: relative;
+	display: block;
+	width: 71px;
+	height: 37px;
+	text-indent: -9999px;	
+	z-index: 1;	
+}
+
 .menu{
 	background-color: black;
 	padding-top: 20px;
@@ -503,9 +516,59 @@
 	font-family: lato-regular;
 	font-size: 12px;
 	position: absolute;
-	
+	height: 37px;
+	width: 76px;
+	margin-left: -15px;
+	padding-top: 6px;
 }
 
 .rojo{
 	background-color: #DB0E0E;
+}
+
+.fb-rojo{
+
+	width: 54px;
+	height: 53px;
+	background: url(../img/face-rojo.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: 3px -3px;
+	background-size: 38px 38px;
+	z-index: 1;
+	margin-left: -44px;
+
+}
+
+.tw-rojo{
+	width: 54px;
+	height: 53px;
+	background: url(../img/twt-rojo.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: 8px -2px;
+	background-size: 38px 38px;
+	z-index: 1;
+	margin-left: -6px;
+
+}
+
+.pad-fb-tw-rojo{
+	padding-bottom:30px;
+	padding-top: 15px;
+	margin-top: 20px;
+}
+
+.data-fiscal{
+	font-family: lato-black;
+	font-size: 8px;
+	padding-top: 56px;
+	height: 53px;
+	background: url(../img/data-fiscal.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: 141px 3px;
+	background-size: 39px 56px;
+	z-index: 1;
+	
 }
