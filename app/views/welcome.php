@@ -52,6 +52,30 @@
       </div>
     </div>
 
+     <div class="small-12 columns menu">
+        <div class="row collapse">
+          <div class="small-2 small-offset-1 columns">
+            <label class="menu-label">¿Precio?</label>
+          </div>
+          <div class="small-3 columns">             
+            <input type="text"  placeholder="Ingresa un destino">
+          </div>
+          <div class="small-3 columns">             
+            <input type="text"  placeholder="Ingresa un destino">
+          </div>
+          <div class="small-2 small-pull-1 columns pre">                
+        </div>
+      </div>
+    </div>
+
+    <div class="small-12 columns  menu">
+      <div class="row">
+        <div class="small-6 small-centered pad-menu columns">
+          <a class="buscar-rojo" role="button" href="">Buscar</a>
+        </div>      
+      </div>
+    </div>
+
 
     </div>
 
