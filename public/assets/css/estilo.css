@@ -603,3 +603,8 @@
 .pad-menu{
 	padding-top: 35px;
 }
+
+.marg-logo{
+	margin-top: -26px;
+	z-index: -1;
+}

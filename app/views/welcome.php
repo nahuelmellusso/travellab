@@ -4,9 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel-lab</title>
+
     <link rel="stylesheet" href="assets/css/foundation.css" />
      <link rel="stylesheet" href="assets/css/estilo.css" />
     <script src="assets/js/vendor/modernizr.js"></script>
+   
+
+   
+
   </head>
   <body>
     
@@ -20,6 +25,14 @@
       		</div>
      	</div>	
     </div>
+
+    <div class="row">
+    	<div class="small-12">
+    		<img class="marg-logo" data-interchange="([../public/assets/img/travel-logo.png, (default)], [../public/assets/img/travel-logo.png, (small)]">
+    	</div>
+    </div>
+
+    
 
     <div class="row">
       <div class="small-12 columns menu">
@@ -78,6 +91,32 @@
 
 
     </div>
+
+<div class="row">
+	<div class="small-12">
+   <ul class="example-orbit" data-orbit>
+     <li>
+       <img src="../public/assets/img/irlanda_3.jpg" alt="slide 1" />
+       <div class="orbit-caption">
+         Caption One.
+       </div>
+     </li>
+     <li class="active">
+       <img src="../public/assets/img/irlanda_2.jpg" alt="slide 2" />
+       <div class="orbit-caption">
+         Caption Two.
+       </div>
+     </li>
+     <li>
+       <img src="../public/assets/img/irlanda.jpg" alt="slide 3" />
+       <div class="orbit-caption">
+         Caption Three.
+       </div>
+     </li>
+   </ul>
+   </div>
+</div>
+
 
     <div class="row encontra">
       <div class="small-12 columns">
@@ -202,11 +241,29 @@
   
    
     	
-   
+	   
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/foundation.min.js"></script>
+    <script src="assets/js/foundation/foundation.orbit.js"></script>
+   
+     
+
     <script>
       $(document).foundation();
     </script>
+    
+    <script>
+    $(document).foundation({
+      orbit: {
+        animation: 'slide',
+        timer_speed: 1000,
+        pause_on_hover: true,
+        animation_speed: 500,
+        navigation_arrows: true,
+        bullets: false
+      }
+    });
+    </script>
+
   </body>
 </html>
