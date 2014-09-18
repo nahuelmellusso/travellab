@@ -10,10 +10,10 @@
     <script src="assets/js/vendor/modernizr.js"></script>
    
 
-   
 
   </head>
   <body>
+    
     
     <div class="row padding borde-bot">
       	<div class="small-4 large-4  columns qs">Quienes somos</div>
@@ -92,26 +92,28 @@
 
     </div>
 
+    
+    
+
+
 <div class="row">
-	<div class="small-12">
-   <ul class="example-orbit" data-orbit>
+	<div class="small-12 ">
+   <ul data-orbit data-options="animation:slide;
+                  pause_on_hover:false;
+                  slide_number:false;
+                  navigation_arrows:false;
+                  bullets:true;">
      <li>
        <img src="../public/assets/img/irlanda_3.jpg" alt="slide 1" />
-       <div class="orbit-caption">
-         Caption One.
-       </div>
+       
      </li>
      <li class="active">
        <img src="../public/assets/img/irlanda_2.jpg" alt="slide 2" />
-       <div class="orbit-caption">
-         Caption Two.
-       </div>
+       
      </li>
      <li>
        <img src="../public/assets/img/irlanda.jpg" alt="slide 3" />
-       <div class="orbit-caption">
-         Caption Three.
-       </div>
+       
      </li>
    </ul>
    </div>
@@ -252,18 +254,8 @@
       $(document).foundation();
     </script>
     
-    <script>
-    $(document).foundation({
-      orbit: {
-        animation: 'slide',
-        timer_speed: 1000,
-        pause_on_hover: true,
-        animation_speed: 500,
-        navigation_arrows: true,
-        bullets: false
-      }
-    });
-    </script>
+  
+   
 
   </body>
 </html>
