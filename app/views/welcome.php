@@ -97,12 +97,15 @@
 
 
 <div class="row">
-	<div class="small-12 ">
+	<div class="small-12 columns">
+    <div class="small-6 small-offset-6 columns globo">
+    </div>
    <ul data-orbit data-options="animation:slide;
                   pause_on_hover:false;
                   slide_number:false;
                   navigation_arrows:false;
                   bullets:true;">
+
      <li>
        <img src="../public/assets/img/irlanda_3.jpg" alt="slide 1" />
        
@@ -112,7 +115,11 @@
        
      </li>
      <li>
-       <img src="../public/assets/img/irlanda.jpg" alt="slide 3" />
+       <img src="../public/assets/img/irlanda_3.jpg" alt="slide 3" />
+       
+     </li>
+     <li>
+       <img src="../public/assets/img/irlanda_2.jpg" alt="slide 4" />
        
      </li>
    </ul>

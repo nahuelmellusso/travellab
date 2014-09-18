@@ -608,3 +608,16 @@
 	margin-top: -26px;
 	z-index: -1;
 }
+
+.globo{
+	background-image: url(../img/circulo.png);
+	background-repeat: no-repeat;
+	background-size: 91px  75px;
+	background-position: center center;
+	position: absolute;
+	width: 200px;
+	height: 110px;
+	z-index: 1;
+	text-align: center;
+	
+}
