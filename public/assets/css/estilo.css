@@ -612,7 +612,7 @@
 .globo{
 	background-image: url(../img/circulo.png);
 	background-repeat: no-repeat;
-	background-size: 91px  75px;
+	background-size: 106px  115px;
 	background-position: center center;
 	position: absolute;
 	width: 200px;
@@ -620,4 +620,17 @@
 	z-index: 1;
 	text-align: center;
 	
+}
+
+.etiqueta{
+	background-image: url(../img/etiqueta.png);
+	background-repeat: no-repeat;
+	background-size: 199px  97px;
+	background-position: center center;
+	position: absolute;
+	width: 200px;
+	height: 110px;
+	z-index: 1;
+	text-align: center;
+	margin-top: 80px;
 }

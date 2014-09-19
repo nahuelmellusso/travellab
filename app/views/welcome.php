@@ -100,6 +100,8 @@
 	<div class="small-12 columns">
     <div class="small-6 small-offset-6 columns globo">
     </div>
+    <div class="small-6 columns etiqueta ">  	
+    </div>
    <ul data-orbit data-options="animation:slide;
                   pause_on_hover:false;
                   slide_number:false;
