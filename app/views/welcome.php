@@ -97,7 +97,7 @@
 
 
 <div class="row">
-	<div class="small-12 columns">
+	<div class="small-12 columns orb">
     <div class="small-6 small-offset-6 columns globo">
     </div>
     <div class="small-6 columns etiqueta ">  	
