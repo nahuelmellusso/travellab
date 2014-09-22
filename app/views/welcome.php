@@ -21,12 +21,12 @@
     
     
     <div class="row padding borde-bot">
-      	<div class="small-4 large-4  columns qs">Quienes somos</div>
-      	<div class="small-4 large-4 columns  borde-izquierda qs">Cont&aacute;ctenos</div>
-      	<div class="small-4 borde-izquierda columns">	
+      	<div class="small-4 medium-2 medium-offset-7 large-4  columns qs">Quienes somos</div>
+      	<div class="small-4 medium-1 large-4 columns contct borde-izquierda qs">Cont&aacute;ctenos</div>
+      	<div class="small-4 medium-1 medium-pull-1 borde-izquierda columns">	
       		<div class="row">
-      			<div class="small-6 large-6 columns " ><a class="fb"  href="#"></a></div>
-      			<div class="small-6 large-6  columns " ><a class="tw"  href="#"></a></div>
+      			<div class="small-6 medium-6 large-6 columns " ><a class="fb"  href="#"></a></div>
+      			<div class="small-6 medium-6 large-6  columns " ><a class="tw"  href="#"></a></div>
       		</div>
      	</div>	
     </div>
@@ -189,12 +189,15 @@
       	       <li class="padd"><a class="tropical" href="#">Tropical</a></li> 
       	       <li class="padd"><a class="escapadas" href="#">Escapadas</a></li>
             </ul> 
-           </div>    
-      	       <li class="padd pad"><a class="cruceros" href="#">Cruceros</a></li>
-      	       <li class="padd"><a class="cultura" href="#">Cultura</a></li>
-      	       <li class="padd"><a class="lunademiel" href="#">Luna de miel</a></li> 
-      	       <li class="padd"><a class="anos" href="#">15 Años</a></li>      	  
-      	   </ul>
+           </div>
+           <div class="small-12 columns">
+            <ul class="inline-list list-h">    
+      	       <li class="padd-2 pad"><a class="cruceros" href="#">Cruceros</a></li>
+      	       <li class="padd-2"><a class="cultura" href="#">Cultura</a></li>
+      	       <li class="padd-2"><a class="lunademiel" href="#">Luna de miel</a></li> 
+      	       <li class="padd-2"><a class="anos" href="#">15 Años</a></li>      	  
+      	    </ul>
+           </div> 
          </div>  
       </div>
     </div>
