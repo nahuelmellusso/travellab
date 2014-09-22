@@ -44,7 +44,7 @@
     src: url(../fonts/Lato-Regular.ttf);
 }
 
-@media only screen and (max-width: 40em) { 
+@media only screen and (min-width: 40.063em) { 
 
 .color{
 	background-color: red;
@@ -143,88 +143,68 @@
 .aventura{
 	background: url(../img/aventura.png);
 	background-repeat: no-repeat;
-	background-size: 42px  49px;
-	background-position: 11px -1px;
+	background-size: 52px  74px;
+	background-position: -2px -2px;
 	position: absolute;
-	width: 63px;
-	height: 68px;
+	width: 71px;
+	height: 92px;
 	z-index: 1;
 	display: block;
-	font-family: lato-regular;
-	font-size: 14px;
-	color :withe;
-	padding-top: 50px;
-	text-align: center;
+	text-indent: -9999px;
 
 }
 
 .safari{
 	background: url(../img/safari.png);
 	background-repeat: no-repeat;
-	background-size: 45px  61px;
-	background-position: 8px -2px;
+	background-size: 52px  70px;
+	background-position: -2px -2px;
 	position: absolute;
-	width: 62px;
-	height: 68px;
+	width: 71px;
+	height: 92px;
 	z-index: 1;
 	display: block;
-	font-family: lato-regular;
-	font-size: 14px;
-	color :withe;
-	padding-top: 50px;
-	text-align: center;
+	text-indent: -9999px;
 
 }
 .playa{
 	background: url(../img/playa.png);
 	background-repeat: no-repeat;
-	background-size: 43px  58px;
-	background-position: 0px -6px;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
 	position: absolute;
-	width: 45px;
-	height: 60px;
+	width: 71px;
+	height: 92px;
 	z-index: 1;
 	display: block;
-	font-family: lato-regular;
-	font-size: 14px;
-	color :withe;
-	padding-top: 50px;
-	text-align: center;	
+	text-indent: -9999px;	
 
 }
 
 .tropical{
 	background: url(../img/tropical.png);
 	background-repeat: no-repeat;
-	background-size: 50px  56px;
-	background-position: 4px -2px;
-	position: absolute;
-	width: 59px;
-	height: 76px;
-	z-index: 1;
-	display: block;
-	font-family: lato-regular;
-	font-size: 14px;
-	color :withe;
-	padding-top: 50px;
-	text-align: center;	
-
-}
-.escapadas{
-	background: url(../img/escapadas.png);
-	background-repeat: no-repeat;
-	background-size: 44px  59px;
-	background-position: 10px -8px;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
 	position: absolute;
 	width: 71px;
 	height: 92px;
 	z-index: 1;
 	display: block;
-	font-family: lato-regular;
-	font-size: 14px;
-	color :withe;
-	padding-top: 50px;
-	text-align: center;
+	text-indent: -9999px;	
+
+}
+.escapadas{
+	background: url(../img/escapadas.png);
+	background-repeat: no-repeat;
+	background-size: 52px  74px;
+	background-position: -5px -2px;
+	position: absolute;
+	width: 71px;
+	height: 92px;
+	z-index: 1;
+	display: block;
+	text-indent: -9999px;	
 
 }
 .cruceros{
@@ -237,19 +217,9 @@
 	height: 92px;
 	z-index: 1;
 	display: block;
-
-	font-family: lato-regular;
-	font-size: 14px;
-	color :withe;
-	padding-top: 50px;
-	text-align: center;	
+	text-indent: -9999px;	
 
 }
-
-.mrlft{
-	margin-left: 9px;
-}
-
 .cultura{
 	background: url(../img/cultura.png);
 	background-repeat: no-repeat;
@@ -273,9 +243,7 @@
 	height: 92px;
 	z-index: 1;
 	display: block;
-	font-family: lato-regular;
-	font-size: 14px;
-	color :withe;	
+	text-indent: -9999px;	
 
 }
 
@@ -283,16 +251,13 @@
 	background: url(../img/15anos.png);
 	background-repeat: no-repeat;
 	background-size: 52px  74px;
-	background-position: 3px -15px;
+	background-position: -5px -2px;
 	position: absolute;
-	width: 53spx;
-	height: 50px;
+	width: 71px;
+	height: 92px;
 	z-index: 1;
 	display: block;
-	padding-top: 45px;
-	font-family: lato-regular;
-	font-size: 14px;
-	color :withe;	
+	text-indent: -9999px;	
 
 }
 .pad{
@@ -300,8 +265,7 @@
 }
 
 .padd{
-	padding: 19px;
-	padding-left: 17px;
+	padding: 20px;
 	padding-top: 59px;
 }
 
@@ -676,4 +640,3 @@
 	width: 109%;
 	}
 }
-

@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel-lab</title>
 
-    <link rel="stylesheet" href="assets/css/foundation.css" />
-     <link rel="stylesheet" href="assets/css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/foundation.css" />
+     <link rel="stylesheet" type="text/css" media="screen"  href="assets/css/estilo.css" />
+     <link rel="stylesheet" type="text/css" media="screen"  href="assets/css/estilo-med.css" />
+     <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+     <link rel="stylesheet" type="text/css"  href="assets/css/style.css" />
+
     <script src="assets/js/vendor/modernizr.js"></script>
+    <script src="assets/js/modernizr.custom.63321.js"></script>
    
 
 
@@ -27,7 +32,7 @@
     </div>
 
     <div class="row">
-    	<div class="small-12">
+    	<div class="small-12 columns">
     		<img class="marg-logo" data-interchange="([../public/assets/img/travel-logo.png, (default)], [../public/assets/img/travel-logo.png, (small)]">
     	</div>
     </div>
@@ -109,7 +114,7 @@
                   bullets:true;">
 
      <li>
-       <img src="../public/assets/img/irlanda_3.jpg" alt="slide 1" />
+       <img src="../public/assets/img/irlanda_3.jpg"  alt="slide 1" />
        
      </li>
      <li class="active">
@@ -129,43 +134,44 @@
 </div>
 
 
-<div class="row">
-  <div class="small-12 columns">
-          <div id="mi-slider" class="mi-slider">
-             <nav>
-                 <a href="#">Shoes</a>
-                  <a href="#">Accessories</a>
-                  <a href="#">Watches</a>
-                  <a href="#">Bags</a>
-              </nav>
+<!-- <div class="row">
 
-             <ul>
-                 <li><a href="#"><img src="images/1.jpg" alt="img01"><h4>Boots</h4></a></li>
-                 <li><a href="#"><img src="images/2.jpg" alt="img02"><h4>Oxfords</h4></a></li>
-                 <li><a href="#"><img src="images/3.jpg" alt="img03"><h4>Loafers</h4></a></li>
-                 <li><a href="#"><img src="images/4.jpg" alt="img04"><h4>Sneakers</h4></a></li>
-             </ul>
-             <ul>
-                  <li><a href="#"><img src="images/5.jpg" alt="img05"><h4>Belts</h4></a></li>
-                  <li><a href="#"><img src="images/6.jpg" alt="img06"><h4>Hats & Caps</h4></a></li>
-                  <li><a href="#"><img src="images/7.jpg" alt="img07"><h4>Sunglasses</h4></a></li>
-                  <li><a href="#"><img src="images/8.jpg" alt="img08"><h4>Scarves</h4></a></li>
-              </ul>
-             <ul>
-                  <li><a href="#"><img src="images/9.jpg" alt="img09"><h4>Casual</h4></a></li>
-                  <li><a href="#"><img src="images/10.jpg" alt="img10"><h4>Luxury</h4></a></li>
-                 <li><a href="#"><img src="images/11.jpg" alt="img11"><h4>Sport</h4></a></li>
-              </ul>
-             <ul>
-                 <li><a href="#"><img src="images/12.jpg" alt="img12"><h4>Carry-Ons</h4></a></li>
-                  <li><a href="#"><img src="images/13.jpg" alt="img13"><h4>Duffel Bags</h4></a></li>
-                  <li><a href="#"><img src="images/14.jpg" alt="img14"><h4>Laptop Bags</h4></a></li>
-                 <li><a href="#"><img src="images/15.jpg" alt="img15"><h4>Briefcases</h4></a></li>
-              </ul>
-      
-         </div>
-         </div>
-  </div>
+<div id="mi-slider" class="mi-slider small-12 columns">
+   <div class="row">
+   <div class="small-12 columns">
+    <ul>
+        <li><a class="th" href="#"><img src="../public/assets/img/1.jpg" alt="img01"><h4>Boots</h4></a></li>
+        <li><a class="th" href="#"><img src="../public/assets/img/2.jpg" alt="img02"><h4>Oxfords</h4></a></li>
+        <li><a class="th" href="#"><img src="../public/assets/img/3.jpg" alt="img03"><h4>Loafers</h4></a></li>
+       
+    </ul>
+    </div>
+    <div class="small-12 columns">
+    <ul>
+        <li><a class="th" href="#"><img src="../public/assets/img/5.jpg" alt="img05"><h4>Belts</h4></a></li>
+        <li><a class="th" href="#"><img src="../public/assets/img/6.jpg" alt="img06"><h4>Hats & Caps</h4></a></li>
+        <li><a class="th" href="#"><img src="../public/assets/img/7.jpg" alt="img07"><h4>Sunglasses</h4></a></li>
+        <li><a class="th" href="#"><img src="../public/assets/img/8.jpg" alt="img08"><h4>Scarves</h4></a></li>
+    </ul>
+    </div>
+    <div class="small-12 columns">
+    <ul>
+        <li><a class="th" href="#"><img src="../public/assets/img/9.jpg" alt="img09"><h4>Casual</h4></a></li>
+        <li><a class="th" href="#"><img src="../public/assets/img/10.jpg" alt="img10"><h4>Luxury</h4></a></li>
+        <li><a class="th" href="#"><img src="../public/assets/img/11.jpg" alt="img11"><h4>Sport</h4></a></li>
+    </ul>
+    </div>
+    
+    <nav>
+        <a href="#">OFERTA</a>
+        <a href="#">MAS VISTOS</a>
+        <a href="#">ECONOMICOS</a>
+    </nav>
+    </div>
+</div>
+</div> -->
+
+
 
 
     <div class="row encontra">
@@ -174,17 +180,22 @@
         <p class="p-en">Encontr&aacute; tu viaje</p>
       </div>
       <div class="small-12  columns">
-      	<ul class="inline-list list-hei">
-      	  <li class="padd"><a class="aventura" href="#"></a></li>
-      	  <li class="padd"><a class="safari" href="#"></a></li>
-      	  <li class="padd"><a class="playa" href="#"></a></li> 
-      	  <li class="padd"><a class="tropical" href="#"></a></li> 
-      	  <li class="padd"><a class="escapadas" href="#"></a></li>  
-      	  <li class="padd pad"><a class="cruceros" href="#"></a></li>
-      	  <li class="padd"><a class="cultura" href="#"></a></li>
-      	  <li class="padd"><a class="lunademiel" href="#"></a></li> 
-      	  <li class="padd"><a class="anos" href="#"></a></li>      	  
-      	</ul>
+        <div class="row">
+          <div class="small-12 columns">
+      	   <ul class="inline-list list-hei">
+      	       <li class="padd mrlft"><a class="aventura" href="#">Aventura</a></li>
+      	       <li class="padd"><a class="safari" href="#">Safari</a></li>
+      	       <li class="padd"><a class="playa" href="#">Playa</a></li> 
+      	       <li class="padd"><a class="tropical" href="#">Tropical</a></li> 
+      	       <li class="padd"><a class="escapadas" href="#">Escapadas</a></li>
+            </ul> 
+           </div>    
+      	       <li class="padd pad"><a class="cruceros" href="#">Cruceros</a></li>
+      	       <li class="padd"><a class="cultura" href="#">Cultura</a></li>
+      	       <li class="padd"><a class="lunademiel" href="#">Luna de miel</a></li> 
+      	       <li class="padd"><a class="anos" href="#">15 Años</a></li>      	  
+      	   </ul>
+         </div>  
       </div>
     </div>
    
@@ -231,7 +242,7 @@
         			<p class="rec-tit">SECCIONES</p>
                 <div class="row">
                   <div class="small-3 small-offset-2 columns">
-                    <ul class="text-center no-bullet seccion-lista">
+                    <ul class="text-center no-bullet " id="seccion-lista">
                      <li><a href="#">Quienes somos</a></li>
                      <li><a href="#">Contactanos</a></li>
                      <li><a href="#">Ofertas</a></li>
@@ -239,7 +250,7 @@
                    </ul>
                   </div>
                   <div class="small-3 small-pull-2 columns">
-                     <ul class="text-center no-bullet seccion-lista">                       
+                     <ul class="text-center no-bullet " id="seccion-lista">                       
                       <li><a href="#">Info &uacute;til</a></li>
                       <li><a href="#">Beneficios</a></li>
                       <li><a href="#">Hoteles</a></li>                     
@@ -252,7 +263,7 @@
                 <p class="rec-tit">OTROS ENLACES</p>
                 	<div class="row">
                 		<div class="small-8 small-offset-2  columns">
-                   		<ul class="text-center no-bullet seccion-lista">                       
+                   		<ul class="text-center no-bullet " id="seccion-lista">                       
                     		<li><a href="#">Cambio del d&iacute;a</a></li>
                     		<li><a href="#">El clima</a></li>
                    		</ul>
@@ -293,13 +304,19 @@
     	
 	   
     <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/query.catslider.js"></script>
+    <script src="assets/js/vendor/jquery.catslider.js"></script>
 
     <script src="assets/js/foundation.min.js"></script>
     <script src="assets/js/foundation/foundation.orbit.js"></script>
-    <script src="assets/js/modernizr.custom.63321.js"></script>
+    
+    <script>
+      $(function() {
 
-   jquery.catslider.js
+        $( '#mi-slider' ).catslider();
+
+      });
+    </script>
+
      
 
     <script>

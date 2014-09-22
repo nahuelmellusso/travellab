@@ -38,6 +38,7 @@
 	transform: translateX(600%);
 	-webkit-transition: opacity 0.2s linear;
 	transition: opacity 0.2s linear;
+
 }
 
 .no-js .mi-slider ul li {
@@ -54,6 +55,7 @@
 .mi-slider ul li a {
 	outline: none;
 	cursor: pointer;
+
 }
 
 .mi-slider ul li img {
@@ -63,11 +65,12 @@
 
 .mi-slider ul li h4 {
 	display: inline-block;
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-	font-style: italic;
+	font-family: lato-regular, serif;
+	
 	font-weight: 400;
 	font-size: 18px;
 	padding: 20px 10px 0;
+
 }
 
 .mi-slider ul li:hover {
@@ -76,11 +79,11 @@
 
 .mi-slider nav {
 	position: relative;
-	top: 400px;
-	text-align: center;
+	top: 0px;
 	max-width: 800px;
 	margin: 0 auto;
-	border-top: 5px solid #333;
+	border-bottom: 1px solid #333;
+	
 }
 
 .no-js nav {
@@ -90,46 +93,63 @@
 .mi-slider nav a {
 	display: inline-block;
 	text-transform: uppercase;
-	letter-spacing: 5px;
-	padding: 40px 30px 30px 34px;
+	padding: 8px 11px 20px 10px;
 	position: relative;
-	color: #888;
+	color: black !important;
 	outline: none;
-	-webkit-transition: color 0.2s linear;
-	transition: color 0.2s linear;
+	-webkit-transition: color 0.2s linear !important;
+	transition: color 0.2s linear !important;
+	border-color: transparent;
+	
+	
+	
 }
 
-.mi-slider nav a:hover,
+.mi-slider nav a:active,
 .mi-slider nav a.mi-selected {
-	color: #000;
+	background-color: black;
+	color: white !important;
 }
 
 .mi-slider nav a.mi-selected:after,
 .mi-slider nav a.mi-selected:before {
 	content: '';
 	position: absolute;
-	top: -5px;
+	top: 42px;
+	color:white;
 	border: solid transparent;
 	height: 0;
 	width: 0;
 	position: absolute;
 	pointer-events: none;
+	
 }
 
 .mi-slider nav a.mi-selected:after {
 	border-color: transparent;
-	border-top-color: #fff;
 	border-width: 20px;
 	left: 50%;
 	margin-left: -20px;
 }
 
+.mi-slider nav a{
+	border:solid;
+	border-width: 1px;
+	border-bottom: transparent;
+	width: 150px;
+	text-align: center;
+	margin-right: -4px;
+	padding-top: 11px;
+	height: 43px;
+	
+}
+
 .mi-slider nav a.mi-selected:before {
 	border-color: transparent;
-	border-top-color: #333;
-	border-width: 27px;
+	border-top-color: black;
+	border-width: 15px;
 	left: 50%;
-	margin-left: -27px;
+	margin-left: -17px;
 }
 
 /* Move classes and animations */
