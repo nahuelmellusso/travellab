@@ -21,20 +21,20 @@
     
     
     <div class="row padding borde-bot">
-      	<div class="small-4 medium-2 medium-offset-7 large-4  columns qs">Quienes somos</div>
-      	<div class="small-4 medium-1 large-4 columns contct borde-izquierda qs">Cont&aacute;ctenos</div>
-      	<div class="small-4 medium-1 borde-izquierda columns">	
-      		<div class="row">
-      			<div class="small-6 medium-6 large-6 columns " ><a class="fb"  href="#"></a></div>
-      			<div class="small-6 medium-6 large-6  columns " ><a class="tw"  href="#"></a></div>
-      		</div>
-     	</div>	
+        <div class="small-4 medium-8 medium-offset-1 large-4 borde-bt columns qs">Quienes somos</div>
+        <div class="small-4 medium-1 large-4 columns borde-bt contct borde-izquierda qs">Cont&aacute;ctenos</div>
+        <div class="small-4 medium-1 medium-pull-1 borde-bt borde-izquierda columns"> 
+          <div class="row">
+            <div class="small-6 medium-6 large-6 columns " ><a class="fb"  href="#"></a></div>
+            <div class="small-6 medium-6 large-6  columns " ><a class="tw"  href="#"></a></div>
+          </div>
+      </div>  
     </div>
 
     <div class="row">
-    	<div class="small-12 columns">
-    		<img class="marg-logo" data-interchange="([../public/assets/img/travel-logo.png, (default)], [../public/assets/img/travel-logo.png, (small)]">
-    	</div>
+      <div class="small-12 medium-12 columns ">
+        <img class="marg-logo" data-interchange="([../public/assets/img/travel-logo.png, (default)], [../public/assets/img/travel-logo.png, (small)], [../public/assets/img/travel-logo.png, (medium)]">
+      </div>
     </div>
 
     
@@ -102,10 +102,10 @@
 
 
 <div class="row">
-	<div class="small-12 columns orb">
+  <div class="small-12 columns orb">
     <div class="small-6 small-offset-6 columns globo">
     </div>
-    <div class="small-6 columns etiqueta ">  	
+    <div class="small-6 columns etiqueta ">   
     </div>
    <ul data-orbit data-options="animation:slide;
                   pause_on_hover:false;
@@ -182,21 +182,21 @@
       <div class="small-12  columns">
         <div class="row">
           <div class="small-12 columns">
-      	   <ul class="inline-list list-hei">
-      	       <li class="padd mrlft"><a class="aventura" href="#">Aventura</a></li>
-      	       <li class="padd"><a class="safari" href="#">Safari</a></li>
-      	       <li class="padd"><a class="playa" href="#">Playa</a></li> 
-      	       <li class="padd"><a class="tropical" href="#">Tropical</a></li> 
-      	       <li class="padd"><a class="escapadas" href="#">Escapadas</a></li>
+           <ul class="inline-list list-hei">
+               <li class="padd mrlft"><a class="aventura" href="#">Aventura</a></li>
+               <li class="padd"><a class="safari" href="#">Safari</a></li>
+               <li class="padd"><a class="playa" href="#">Playa</a></li> 
+               <li class="padd"><a class="tropical" href="#">Tropical</a></li> 
+               <li class="padd"><a class="escapadas" href="#">Escapadas</a></li>
             </ul> 
            </div>
            <div class="small-12 columns">
             <ul class="inline-list list-h">    
-      	       <li class="padd-2 pad"><a class="cruceros" href="#">Cruceros</a></li>
-      	       <li class="padd-2"><a class="cultura" href="#">Cultura</a></li>
-      	       <li class="padd-2"><a class="lunademiel" href="#">Luna de miel</a></li> 
-      	       <li class="padd-2"><a class="anos" href="#">15 Años</a></li>      	  
-      	    </ul>
+               <li class="padd-2 pad"><a class="cruceros" href="#">Cruceros</a></li>
+               <li class="padd-2"><a class="cultura" href="#">Cultura</a></li>
+               <li class="padd-2"><a class="lunademiel" href="#">Luna de miel</a></li> 
+               <li class="padd-2"><a class="anos" href="#">15 Años</a></li>         
+            </ul>
            </div> 
          </div>  
       </div>
@@ -207,16 +207,16 @@
         <p class="p-en-negr">¿Que est&aacute;s esperando?</p>
         <p class="p-en">Comenz&aacute; a planificar tus vacaciones</p>
         <div class="row">
-        	<div class="small-12 small-centered marg columns">
-        		<p class="esp tel">LLAMANOS</p>
+          <div class="small-12 small-centered marg columns">
+            <p class="esp tel">LLAMANOS</p>
             <p class="tf">+54 223 <span class="tfg">4910869</span></p>
             <p class="lr">Lineas Rotativas</p>
-        	</div>
-        	<div class="small-12 columns">
-        		<p class="esp punto">VENITE A LA OFI</p>
+          </div>
+          <div class="small-12 columns">
+            <p class="esp punto">VENITE A LA OFI</p>
             <p class="tfg">Rivadavia 2678, local 5. MDQ</p>
             <p class="lr">¿No sabes como llegar?<span style="color:red"> Mir&aacute; el mapa</span></p>
-        	</div>
+          </div>
           <div class="small-12 columns">
             <p class="esp escribinos">ESCRIBINOS</p>
             <p class="tfg">Consultas@travel-lab.com.ar</p>
@@ -235,14 +235,14 @@
           <p class="rec-tit">RECOMENDAMOS</p>
           <p class="rec-vin marg">Empresas vinculadas</p>
           <ul class="no-bullet">
-          	<li><a class="naranjos text-centered" href="#"></a></li>
-          	<li><a class="travel text-centered" href="#"></a></li>
+            <li><a class="naranjos text-centered" href="#"></a></li>
+            <li><a class="travel text-centered" href="#"></a></li>
           </ul>
         </div>
         <div class="small-12 columns  reco marg">
-        	<div class="row">
-        		<div class="small-10 borde small-centered small-offset-1 columns">
-        			<p class="rec-tit">SECCIONES</p>
+          <div class="row">
+            <div class="small-10 borde small-centered small-offset-1 columns">
+              <p class="rec-tit">SECCIONES</p>
                 <div class="row">
                   <div class="small-3 small-offset-2 columns">
                     <ul class="text-center no-bullet " id="seccion-lista">
@@ -259,42 +259,42 @@
                       <li><a href="#">Hoteles</a></li>                     
                       <li><a href="#">A&eacute;reos</a></li>
                      </ul>
-                  </div>       				  
+                  </div>                
                 </div>   
-        		</div>
+            </div>
               <div class="small-6 small-offset-3 borde-enlace small-centered columns">
                 <p class="rec-tit">OTROS ENLACES</p>
-                	<div class="row">
-                		<div class="small-8 small-offset-2  columns">
-                   		<ul class="text-center no-bullet " id="seccion-lista">                       
-                    		<li><a href="#">Cambio del d&iacute;a</a></li>
-                    		<li><a href="#">El clima</a></li>
-                   		</ul>
-                		</div>
-                	</div>	       				  
+                  <div class="row">
+                    <div class="small-8 small-offset-2  columns">
+                      <ul class="text-center no-bullet " id="seccion-lista">                       
+                        <li><a href="#">Cambio del d&iacute;a</a></li>
+                        <li><a href="#">El clima</a></li>
+                      </ul>
+                    </div>
+                  </div>                  
               </div>
-              	<div class="small-10 borde small-centered small-offset-1 columns">
-                	<p class="rec-tit">NEWSLETTER</p>
-                	<p class="new-ngr">Todas las ofertas en tu casilla de entrada</p>
-                	<p class="news">Suscribite a nuestro newsletter semanal y<br>
-                	obten&eacute; las &uacute;ltimas ofertas y novedades</p>
-                	<div class="row"> 
-                		<div class="small-8  columns" style="margin-left:12px;">
-                			<input type="email" placeholder="Email">
-                		</div>
-                		<div class="small-2 rojo small-centered columns">
-                			<a href="" role="button" class="rojo boton-rojo">Suscribirme</a>
-                		</div>
+                <div class="small-10 borde small-centered small-offset-1 columns">
+                  <p class="rec-tit">NEWSLETTER</p>
+                  <p class="new-ngr">Todas las ofertas en tu casilla de entrada</p>
+                  <p class="news">Suscribite a nuestro newsletter semanal y<br>
+                  obten&eacute; las &uacute;ltimas ofertas y novedades</p>
+                  <div class="row"> 
+                    <div class="small-8  columns" style="margin-left:12px;">
+                      <input type="email" placeholder="Email">
+                    </div>
+                    <div class="small-2 rojo small-centered columns">
+                      <a href="" role="button" class="rojo boton-rojo">Suscribirme</a>
+                    </div>
                     <div class="small-6 small-pull-3 borde-enlace pad-fb-tw-rojo columns">
                         <ul class="text-center no-bullet">
                         <li><a class="fb-rojo" href="#"></a></li>
                         <li><a class="tw-rojo" href="#"></a></li>                      
                       </ul>
-                    </div>	
-                	</div>
-                </div>	       				  
+                    </div>  
+                  </div>
+                </div>                  
               </div>
-        	</div>		
+          </div>    
         </div>
 
         <div class="row">
@@ -304,8 +304,8 @@
         </div>
   
    
-    	
-	   
+      
+     
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/vendor/jquery.catslider.js"></script>
 
