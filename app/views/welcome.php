@@ -21,9 +21,9 @@
     
     
     <div class="row padding borde-bot">
-      	<div class="small-4 medium-2 medium-offset-7 large-4  columns qs">Quienes somos</div>
-      	<div class="small-4 medium-1 large-4 columns contct borde-izquierda qs">Cont&aacute;ctenos</div>
-      	<div class="small-4 medium-1 medium-pull-1 borde-izquierda columns">	
+      	<div class="small-4 medium-8 medium-offset-1 large-4 borde-bt columns qs">Quienes somos</div>
+      	<div class="small-4 medium-1 large-4 columns borde-bt contct borde-izquierda qs">Cont&aacute;ctenos</div>
+      	<div class="small-4 medium-1 medium-pull-1 borde-bt borde-izquierda columns">	
       		<div class="row">
       			<div class="small-6 medium-6 large-6 columns " ><a class="fb"  href="#"></a></div>
       			<div class="small-6 medium-6 large-6  columns " ><a class="tw"  href="#"></a></div>
@@ -32,8 +32,8 @@
     </div>
 
     <div class="row">
-    	<div class="small-12 columns">
-    		<img class="marg-logo" data-interchange="([../public/assets/img/travel-logo.png, (default)], [../public/assets/img/travel-logo.png, (small)]">
+    	<div class="small-12 medium-12 columns ">
+    		<img class="marg-logo" data-interchange="([../public/assets/img/travel-logo.png, (default)], [../public/assets/img/travel-logo.png, (small)], [../public/assets/img/travel-logo.png, (medium)]">
     	</div>
     </div>
 

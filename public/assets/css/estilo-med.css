@@ -54,11 +54,16 @@
 
 	.borde-bot{
 		
+		
+	}
+
+	.borde-bt{
+		
 		border-bottom: 1px solid #000000;
 	}
 
 	.borde-izquierda{
-		height: 34px;
+		height: 44px;
 		border-left :1px solid #000000;
 	}
 
@@ -68,7 +73,7 @@
 		background: url(../img/fb-normal.png);
 		background-repeat: no-repeat;
 		position: absolute;
-		background-position: 8px -2px;
+		background-position: -3px 3px;
 		background-size: 35px 36px;
 		z-index: -1;
 	}
@@ -90,22 +95,25 @@
 		background: url(../img/tw-normal.png);
 		background-repeat: no-repeat;
 		position: absolute;
-		background-position: -3px 1px;
+		background-position: -3px 6px;
 		background-size: 36px 32px;
 		z-index: -1;
+		margin-left: -7px;
 	}
 
 	.qs{
 		font-family: lato-black;
 		font-size: 12px;
 		text-align: center;
-		padding-top: 5px;
-		padding-left: 68px;
+		padding-top: 10px;
+		padding-left: 568px;
+		height: 45px;
+		border-right: 1px solid;
 	}
 
 	.contct{
 		padding-left: 7px;
-		padding-top: 5px;
+		padding-top: 10px;
 		
 
 	}
@@ -665,6 +673,7 @@
 
 	.marg-logo{
 		margin-top: -26px;
+		padding-left: 50px;
 		z-index: -1;
 	}
 
