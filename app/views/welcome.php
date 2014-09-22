@@ -23,7 +23,7 @@
     <div class="row padding borde-bot">
       	<div class="small-4 medium-2 medium-offset-7 large-4  columns qs">Quienes somos</div>
       	<div class="small-4 medium-1 large-4 columns contct borde-izquierda qs">Cont&aacute;ctenos</div>
-      	<div class="small-4 medium-1 medium-pull-1 borde-izquierda columns">	
+      	<div class="small-4 medium-1 borde-izquierda columns">	
       		<div class="row">
       			<div class="small-6 medium-6 large-6 columns " ><a class="fb"  href="#"></a></div>
       			<div class="small-6 medium-6 large-6  columns " ><a class="tw"  href="#"></a></div>
