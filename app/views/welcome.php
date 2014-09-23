@@ -41,7 +41,7 @@
     <div class="row">
       <div class="medium-12 columns menu-inicio">
         <div class="row">
-          <div class="medium-1 medium-offset-4 columns">
+          <div class="medium-1 medium-offset-4  columns">
             <a href="">Inicio</a>
           </div>
           <div class="medium-1 columns">

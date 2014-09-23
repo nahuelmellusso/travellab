@@ -81,7 +81,16 @@
 	.menu-inicio{
 		font-family: lato-regular;
 		font-size: 14px;
+		color: black !important;
+
 	}
+	.menu-inicio a{
+		font-family: lato-regular;
+		font-size: 14px;
+		color: black !important;		
+	}
+
+
 
 	.borde-bot{
 		
@@ -533,7 +542,7 @@
 		
 
 	}
-
+/*
 	#seccion-lista{
 
 		text-align: center !important;
@@ -552,7 +561,7 @@
 		text-decoration: none !important;
 		color: white !important;
 	}
-
+*/
 	.put{
 		background-image: url(../img/punto_menu.png);
 		background-repeat: no-repeat;
