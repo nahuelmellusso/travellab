@@ -40,16 +40,16 @@
 
     
 
-    <div class="row">
-      <div class="small-12 medium-3 columns menu">
+    <div class="row marg-barra">
+      <div class="small-12 medium-3 medium-offset-1 columns menu">
         <div class="row collapse">
-            <div class="small-2 small-offset-1  columns">
+            <div class="small-2 small-offset-1 medium-2  columns">
               <label class="menu-label">¿D&oacute;nde?</label>
             </div>
-            <div class="small-6 columns">             
+            <div class="small-6 medium-6 columns">             
               <input type="text"  placeholder="Ingresa un destino">
             </div>
-            <div class="small-2 small-pull-1 columns put">                
+            <div class="small-2 small-pull-1 medium-2  columns put">                
             </div>
         </div>
       </div>
@@ -57,37 +57,37 @@
 
       <div class="small-12 medium-3 columns menu">
         <div class="row collapse">
-          <div class="small-2 small-offset-1 columns">
+          <div class="small-2 medium-2 small-offset-1 columns">
             <label class="menu-label">¿Cuando?</label>
           </div>
-          <div class="small-3 columns">             
+          <div class="small-3 medium-3 columns">             
             <input type="date"  placeholder="Ingresa un destino">
           </div>
-          <div class="small-3 columns">             
+          <div class="small-3 medium-3 columns">             
             <input type="date"  placeholder="Ingresa un destino">
           </div>
-          <div class="small-2 small-pull-1 columns cal">                
+          <div class="small-2 medium-2 small-pull-1 columns cal">                
         </div>
       </div>
     </div>
 
-     <div class="small-12 medium-3 columns menu">
+     <div class="small-12 medium-3  columns menu">
         <div class="row collapse">
-          <div class="small-2 small-offset-1 columns">
+          <div class="small-2 small-offset-1 medium-2 columns">
             <label class="menu-label">¿Precio?</label>
           </div>
-          <div class="small-3 columns">             
+          <div class="small-3 medium-3 columns">             
             <input type="text"  placeholder="Ingresa un destino">
           </div>
-          <div class="small-3 columns">             
+          <div class="small-3 medium-3 columns">             
             <input type="text"  placeholder="Ingresa un destino">
           </div>
-          <div class="small-2 small-pull-1 columns pre">                
+          <div class="small-2 small-pull-1 medium-3  columns pre">                
         </div>
       </div>
     </div>
 
-    <div class="small-12 columns  menu">
+    <div class="small-12 medium-1 medium-pull-1 columns  menu">
       <div class="row">
         <div class="small-6 small-centered pad-menu columns">
           <a class="buscar-rojo" role="button" href="">Buscar</a>
@@ -103,7 +103,7 @@
 
 
 <div class="row">
-  <div class="small-12 columns orb">
+  <div class="small-12 columns orb margin-orbit">
     <div class="small-6 small-offset-6 columns globo">
     </div>
     <div class="small-6 columns etiqueta ">   
