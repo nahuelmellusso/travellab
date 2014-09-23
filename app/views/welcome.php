@@ -38,7 +38,30 @@
     	</div>
     </div>
 
-    
+    <div class="row">
+      <div class="medium-12 columns menu-inicio">
+        <div class="row">
+          <div class="medium-1 medium-offset-4 columns">
+            <a href="">Inicio</a>
+          </div>
+          <div class="medium-1 columns">
+            <a href="">Destinos</a>
+          </div>
+          <div class="medium-1 columns">
+            <a href="">Bodas</a>
+          </div>
+          <div class="medium-1 columns">
+            <a href="">Seguros</a>
+          </div>
+          <div class="medium-2 columns">
+            <a href="">Medios de pago</a>
+          </div>
+          <div class="medium-2 columns">
+            <a href="">Elige una moneda</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="row marg-barra">
       <div class="small-12 medium-3 medium-offset-1 columns menu">
@@ -103,15 +126,16 @@
 
 
 <div class="row">
-  <div class="small-12 columns orb margin-orbit">
-    <div class="small-6 small-offset-6 columns globo">
+  <div class="small-12 medium-12 columns orb margin-orbit">
+    <div class="small-6 small-offset-6 medium-4 medium-offset-8 columns globo">
     </div>
-    <div class="small-6 columns etiqueta ">   
+    <div class="small-6 mdium-6 columns etiqueta ">   
     </div>
-   <ul data-orbit data-options="animation:slide;
+   <ul  data-orbit data-options="animation:slide;
                   pause_on_hover:false;
                   slide_number:false;
                   navigation_arrows:false;
+                  variable_height:false;
                   bullets:true;">
 
      <li>
@@ -176,13 +200,13 @@
 
 
     <div class="row encontra">
-      <div class="small-12 columns">
+      <div class="small-12 medium-12 columns">
         <p class="p-en-negr">¿Ya sabes qu&eacute; quer&eacute;s hacer en tus vacaciones?</p>
         <p class="p-en">Encontr&aacute; tu viaje</p>
       </div>
-      <div class="small-12  columns">
+      <div class="small-12 medium-12  columns">
         <div class="row">
-          <div class="small-12 columns">
+          <div class="small-12 medium-6 columns">
            <ul class="inline-list list-hei">
                <li class="padd mrlft"><a class="aventura" href="#">Aventura</a></li>
                <li class="padd"><a class="safari" href="#">Safari</a></li>
@@ -191,7 +215,7 @@
                <li class="padd"><a class="escapadas" href="#">Escapadas</a></li>
             </ul> 
            </div>
-           <div class="small-12 columns">
+           <div class="small-12 medium-6 columns">
             <ul class="inline-list list-h">    
                <li class="padd-2 pad"><a class="cruceros" href="#">Cruceros</a></li>
                <li class="padd-2"><a class="cultura" href="#">Cultura</a></li>

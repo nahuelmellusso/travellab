@@ -50,6 +50,38 @@
 		padding-top: 1px;
 	}
 
+	.orbit-container{
+		height: 468px;
+		width:auto;
+	}
+	
+	  .orbit-timer {
+	  left: -10000px;
+	  top: auto;
+	  height: 1px;
+	  overflow: hidden;
+	  position: absolute;
+	  width: 1px;
+	  }
+	
+
+	.orbit-bullets {
+	  position: absolute;
+	  top: 430px;
+	  left: 500px;
+	  z-index: 1000; 
+	}
+
+	.orbit-container img{
+		width: 100%;
+		height: auto;
+	}
+
+
+	.menu-inicio{
+		font-family: lato-regular;
+		font-size: 14px;
+	}
 
 	.borde-bot{
 		
@@ -124,6 +156,7 @@
 	.encontra{
 		background-color: #E13333;
 		padding-top: 20px;
+		margin-top: 400px;
 
 	}
 
@@ -135,7 +168,7 @@
 	}
 
 	.p-en-negr{
-		font-size: 14px;
+		font-size: 16px;
 		font-family: lato-black;
 		text-align: center;
 		line-height: 0px;
@@ -145,7 +178,7 @@
 
 	.p-en{
 
-		font-size: 14px;
+		font-size: 16px;
 		font-family: lato-hairline;
 		text-align: center;
 		font-weight: 900;
@@ -340,7 +373,7 @@
 	}
 
 	.list-h{
-		margin-top: -140px;
+		margin-top: -63px;
 		padding-left: 0px;
 	}
 
@@ -686,10 +719,11 @@
 		background-image: url(../img/circulo.png);
 		background-repeat: no-repeat;
 		background-size: 106px  115px;
-		background-position: center center;
+		background-size: 232px 229px;
+		background-position: 7px 69px;
 		position: absolute;
-		width: 200px;
-		height: 110px;
+		width: 249px;
+		height: 350px;
 		z-index: 1;
 		text-align: center;
 		
@@ -698,20 +732,22 @@
 	.etiqueta{
 		background-image: url(../img/etiqueta.png);
 		background-repeat: no-repeat;
-		background-size: 199px  97px;
-		background-position: center center;
+	
+		background-size: 343px 177px;
+		background-position: 103px 25px;
 		position: absolute;
-		width: 200px;
-		height: 110px;
+		width: 436px;
+		height: 200px;
 		z-index: 1;
 		text-align: center;
-		margin-top: 80px;
+		margin-top: 189px;
 	}
 
-	.orb{
+
+	/*.orb{
 		margin-left: -5%;
 		width: 109%;
-		}
+		}*/
 	.margin-orbit{
 		margin-top: -73px;
 	}	
