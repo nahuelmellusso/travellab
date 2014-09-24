@@ -87,7 +87,22 @@
 	.menu-inicio a{
 		font-family: lato-regular;
 		font-size: 14px;
-		color: black !important;		
+		color: black;	
+		
+	}
+
+	.miabl{
+		display: block;
+		width: 64px;
+		height:33px;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	.miabl-l{
+		display: block;
+		text-align: center;
+		padding-top: 5px;
 	}
 
 
@@ -105,6 +120,24 @@
 	.borde-izquierda{
 		height: 45px;
 		border-left :1px solid #000000;
+	}
+
+	.active{
+		background-color: black;
+		font-family: lato-regular;
+		font-size: 14px;
+		color: white!important;
+		border-bottom: solid 1px;
+		border-bottom-color: black;
+		width: 100%;
+		height: 33px;
+		z-index: 1 !important;
+	}
+
+	.moneda{
+		border-left: solid;
+		border-left-width: 1px;
+		border-left-color: black;
 	}
 
 	.fb{
@@ -130,7 +163,7 @@
 	}
 
 	.marg-barra{
-		margin-top: 15px;
+		margin-top: -1px;
 	}
 
 	.tw{

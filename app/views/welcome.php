@@ -39,25 +39,37 @@
     </div>
 
     <div class="row">
-      <div class="medium-12 columns menu-inicio">
+      <div class="medium-11 columns menu-inicio">
         <div class="row">
-          <div class="medium-1 medium-offset-4  columns">
-            <a href="">Inicio</a>
+          <div class="medium-1  medium-offset-4  columns">
+            <a class="miabl active" href="">Inicio</a>
           </div>
-          <div class="medium-1 columns">
-            <a href="">Destinos</a>
+          <div class="medium-1  columns">
+            <a class="miabl" href="">Destinos</a>
           </div>
-          <div class="medium-1 columns">
-            <a href="">Bodas</a>
+          <div class="medium-1  columns">
+            <a class="miabl" href="">Bodas</a>
           </div>
-          <div class="medium-1 columns">
-            <a href="">Seguros</a>
-          </div>
-          <div class="medium-2 columns">
-            <a href="">Medios de pago</a>
+          <div class="medium-1  columns">
+            <a class="miabl" href="">Seguros</a>
           </div>
           <div class="medium-2 columns">
-            <a href="">Elige una moneda</a>
+            <a class="miabl-l " href="">Medios de pago</a>
+          </div>
+          <div class="medium-2 columns">
+              <div class="row">
+                <div class="medium-10 columns">
+                  <a class="miabl-l moneda" href="">Elige una moneda:</a>
+                </div>
+                <div class="medium-2 columns">
+                  <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown"></button><br>
+                  <ul id="drop1" data-dropdown-content class="f-dropdown tiny" aria-hidden="true" tabindex="-1">
+                    <li><a href="#">This is a link</a></li>
+                    <li><a href="#">This is another</a></li>
+                    
+                  </ul>
+                </div>  
+              </div>      
           </div>
         </div>
       </div>
