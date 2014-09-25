@@ -56,21 +56,7 @@
           <div class="medium-2 columns">
             <a class="miabl-l " href="">Medios de pago</a>
           </div>
-          <div class="medium-2 columns">
-              <div class="row">
-                <div class="medium-10 columns">
-                  <a class="miabl-l moneda" href="">Elige una moneda:</a>
-                </div>
-                <div class="medium-2 columns">
-                  <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown"></button><br>
-                  <ul id="drop1" data-dropdown-content class="f-dropdown tiny" aria-hidden="true" tabindex="-1">
-                    <li><a href="#">This is a link</a></li>
-                    <li><a href="#">This is another</a></li>
-                    
-                  </ul>
-                </div>  
-              </div>      
-          </div>
+          
         </div>
       </div>
     </div>
@@ -124,7 +110,7 @@
 
     <div class="small-12 medium-1 medium-pull-1 columns  menu">
       <div class="row">
-        <div class="small-6 small-centered pad-menu columns">
+        <div class="small-6 medium-12 small-centered pad-menu columns">
           <a class="buscar-rojo" role="button" href="">Buscar</a>
         </div>      
       </div>
@@ -139,10 +125,20 @@
 
 <div class="row">
   <div class="small-12 medium-12 columns orb margin-orbit">
-    <div class="small-6 small-offset-6 medium-4 medium-offset-8 columns globo">
-    </div>
-    <div class="small-6 mdium-6 columns etiqueta ">   
-    </div>
+  		<div class="row">
+
+    		<div class="small-6 small-offset-6 medium-4 medium-offset-8 columns globo">
+    			<input type="email" class="mail-news" placeholder="Email">
+    			<a class="suscribe" href="">Suscribirme al Newsletter</a>
+    		</div>
+    		<div class="small-6 mdium-6 columns etiqueta "> 
+    			<ul class="inline-list transp no-bullets">
+    			    <li><a class="punto-bco" href="#">Ver en el mapa</a></li>
+    			    <li><a class="mas-inf" href="#">M&aacute;s info</a></li>
+    			 </ul>  
+    		</div>
+    		
+    	</div>
    <ul  data-orbit data-options="animation:slide;
                   pause_on_hover:false;
                   slide_number:false;
