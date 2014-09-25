@@ -210,11 +210,12 @@
 	}
 
 	.p-en-negr{
-		font-size: 16px;
+		font-size: 18px;
 		font-family: lato-black;
 		text-align: center;
 		line-height: 0px;
 		margin-bottom: 7px; 
+		margin-top: 19px;
 		
 	}
 
@@ -227,6 +228,24 @@
 
 	}
 
+	.list-hei>li>a{
+		display: block;
+		font-family: lato-regular;
+		font-size: 14px;
+		color :white!important;
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	.list-h>li>a{
+		display: block;
+		font-family: lato-regular;
+		font-size: 14px;
+		color :white!important;
+		padding-top: 50px;
+		text-align: center;
+	}
+
 	.aventura{
 		background: url(../img/aventura.png);
 		background-repeat: no-repeat;
@@ -236,12 +255,7 @@
 		width: 63px;
 		height: 68px;
 		z-index: 1;
-		display: block;
-		font-family: lato-regular;
-		font-size: 14px;
-		color :withe;
-		padding-top: 50px;
-		text-align: center;
+		
 
 	}
 
@@ -398,20 +412,21 @@
 	}
 
 	.padd{
-		padding: 19px;
-		padding-left: 17px;
-		padding-top: 59px;
+		padding: 30px;
+		padding-left: 37px;
+		padding-top: 83px;
 	}
 
 	.padd-2{
-		padding: 19px;
-		padding-left: 27px;
-		padding-top: 59px;
+		padding: 30px;
+		padding-left: 37px;
+		padding-top: 83px;
 	}
 
 	.list-hei{
 		height: 206px;
 		margin-top: -62px;
+		margin-left: 16px;
 	}
 
 	.list-h{
@@ -481,7 +496,11 @@
 	}
 
 	.marg{
-		margin-top: -20px;
+		padding-left: 100px;
+	}
+
+	.marg-2{
+		padding-right: 100px;
 	}
 
 	.tfg{
@@ -828,9 +847,9 @@
 		background-repeat: no-repeat;
 		background-size: 40px 40px;
 		background-position: -1px -10px;
-		width: 158px;
+		width: 109px;
 		height: 40px;
-		padding-left: -4px;
+		padding-left: 32px !important;
 		z-index: 1;
 		}
 
@@ -838,10 +857,10 @@
 		background-image: url(../img/info-blanco.png);
 		background-repeat: no-repeat;
 		background-size: 40px 40px;
-		background-position: -1px -10px;
-		width: 158px;
+		background-position: 15px -6px;
+		width: 113px;
 		height: 40px;
-		padding-left: -4px;
+		padding-left: 40px !important;
 		z-index: 1;
 	}
 

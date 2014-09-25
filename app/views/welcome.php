@@ -236,26 +236,26 @@
     </div>
    
     <div class="row padd-esperando">
-      <div class="small-12 columns">
+      <div class="small-12 medium-12 columns">
         <p class="p-en-negr">¿Que est&aacute;s esperando?</p>
         <p class="p-en">Comenz&aacute; a planificar tus vacaciones</p>
         <div class="row">
-          <div class="small-12 small-centered marg columns">
+          <div class="small-12   medium-4 marg columns">
             <p class="esp tel">LLAMANOS</p>
             <p class="tf">+54 223 <span class="tfg">4910869</span></p>
             <p class="lr">Lineas Rotativas</p>
           </div>
-          <div class="small-12 columns">
+          <div class="small-12 medium-4 columns">
             <p class="esp punto">VENITE A LA OFI</p>
             <p class="tfg">Rivadavia 2678, local 5. MDQ</p>
             <p class="lr">¿No sabes como llegar?<span style="color:red"> Mir&aacute; el mapa</span></p>
           </div>
-          <div class="small-12 columns">
+          <div class="small-12 medium-4 marg-2 columns">
             <p class="esp escribinos">ESCRIBINOS</p>
             <p class="tfg">Consultas@travel-lab.com.ar</p>
             <p class="lr">o complet&aacute; el <a style="color:red" href="">formulario</a></p>
           </div>
-          <div class="small-12 columns">
+          <div class="small-12 medium-12 columns">
             <p class="at esp auto">No queremos que te preocupes por nada, por eso<br>
             te regalamos 1 hora de <span style="font-weight:bold;">estacionamiento GRATIS</span></p>
           </div>
@@ -264,7 +264,8 @@
      </div>
 
      <div class="row">
-        <div class="small-12 small-centered columns reco">
+
+        <div class="small-12 medium-4 columns reco">
           <p class="rec-tit">RECOMENDAMOS</p>
           <p class="rec-vin marg">Empresas vinculadas</p>
           <ul class="no-bullet">
@@ -272,12 +273,12 @@
             <li><a class="travel text-centered" href="#"></a></li>
           </ul>
         </div>
-        <div class="small-12 columns  reco marg">
-          <div class="row">
-            <div class="small-10 borde small-centered small-offset-1 columns">
+
+
+        <div class="small-12 medium-4 columns  reco marg">
               <p class="rec-tit">SECCIONES</p>
                 <div class="row">
-                  <div class="small-3 small-offset-2 columns">
+                  <div class="small-3 small-offset-2  columns">
                     <ul class="text-center no-bullet " id="seccion-lista">
                      <li><a href="#">Quienes somos</a></li>
                      <li><a href="#">Contactanos</a></li>
@@ -285,7 +286,7 @@
                      <li><a href="#">Destinos</a></li>                     
                    </ul>
                   </div>
-                  <div class="small-3 small-pull-2 columns">
+                  <div class="small-3 small-pull-2  columns">
                      <ul class="text-center no-bullet " id="seccion-lista">                       
                       <li><a href="#">Info &uacute;til</a></li>
                       <li><a href="#">Beneficios</a></li>
@@ -294,31 +295,35 @@
                      </ul>
                   </div>                
                 </div>   
-            </div>
-              <div class="small-6 small-offset-3 borde-enlace small-centered columns">
+          
+              <div class="small-6 small-offset-3  borde-enlace  columns">
                 <p class="rec-tit">OTROS ENLACES</p>
                   <div class="row">
-                    <div class="small-8 small-offset-2  columns">
+                    <div class="small-8 small-offset-2 medium-12 columns">
                       <ul class="text-center no-bullet " id="seccion-lista">                       
                         <li><a href="#">Cambio del d&iacute;a</a></li>
                         <li><a href="#">El clima</a></li>
                       </ul>
                     </div>
-                  </div>                  
-              </div>
-                <div class="small-10 borde small-centered small-offset-1 columns">
+              
+            </div>
+          </div>
+        </div>
+                
+
+                <div class="small-10 borde medium-4 small-offset-1 columns">
                   <p class="rec-tit">NEWSLETTER</p>
                   <p class="new-ngr">Todas las ofertas en tu casilla de entrada</p>
                   <p class="news">Suscribite a nuestro newsletter semanal y<br>
                   obten&eacute; las &uacute;ltimas ofertas y novedades</p>
                   <div class="row"> 
-                    <div class="small-8  columns" style="margin-left:12px;">
+                    <div class="small-8 medium-8 columns" style="margin-left:12px;">
                       <input type="email" placeholder="Email">
                     </div>
-                    <div class="small-2 rojo small-centered columns">
+                    <div class="small-2 medium-2 rojo small-centered columns">
                       <a href="" role="button" class="rojo boton-rojo">Suscribirme</a>
                     </div>
-                    <div class="small-6 small-pull-3 borde-enlace pad-fb-tw-rojo columns">
+                    <div class="small-6 medium-2 small-pull-3 borde-enlace pad-fb-tw-rojo columns">
                         <ul class="text-center no-bullet">
                         <li><a class="fb-rojo" href="#"></a></li>
                         <li><a class="tw-rojo" href="#"></a></li>                      
@@ -327,8 +332,7 @@
                   </div>
                 </div>                  
               </div>
-          </div>    
-        </div>
+         
 
         <div class="row">
           <div class="small-12 small-centered columns">
