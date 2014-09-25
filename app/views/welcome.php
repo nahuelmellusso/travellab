@@ -276,40 +276,46 @@
 
 
         <div class="small-12 medium-4 columns  reco marg">
-              <p class="rec-tit">SECCIONES</p>
-                <div class="row">
-                  <div class="small-3 small-offset-2  columns">
-                    <ul class="text-center no-bullet " id="seccion-lista">
-                     <li><a href="#">Quienes somos</a></li>
-                     <li><a href="#">Contactanos</a></li>
-                     <li><a href="#">Ofertas</a></li>
-                     <li><a href="#">Destinos</a></li>                     
-                   </ul>
-                  </div>
-                  <div class="small-3 small-pull-2  columns">
-                     <ul class="text-center no-bullet " id="seccion-lista">                       
-                      <li><a href="#">Info &uacute;til</a></li>
-                      <li><a href="#">Beneficios</a></li>
-                      <li><a href="#">Hoteles</a></li>                     
-                      <li><a href="#">A&eacute;reos</a></li>
-                     </ul>
-                  </div>                
-                </div>   
-          
-              <div class="small-6 small-offset-3  borde-enlace  columns">
-                <p class="rec-tit">OTROS ENLACES</p>
-                  <div class="row">
-                    <div class="small-8 small-offset-2 medium-12 columns">
-                      <ul class="text-center no-bullet " id="seccion-lista">                       
-                        <li><a href="#">Cambio del d&iacute;a</a></li>
-                        <li><a href="#">El clima</a></li>
+               <p class="rec-tit">SECCIONES</p>
+                 <div class="row">
+                   <div class="small-3 small-offset-2 medium-6  columns">
+                     <ul class="text-center no-bullet seccion-lista">
+                      <li><a href="#">Quienes somos</a></li>
+                      <li><a href="#">Contactanos</a></li>
+                      <li><a href="#">Ofertas</a></li>
+                      <li><a href="#">Destinos</a></li>                     
+                    </ul>
+                   </div>
+                   <div class="small-3 small-pull-2  medium-6 columns">
+                      <ul class="text-center no-bullet seccion-lista">                       
+                       <li><a href="#">Info &uacute;til</a></li>
+                       <li><a href="#">Beneficios</a></li>
+                       <li><a href="#">Hoteles</a></li>                     
+                       <li><a href="#">A&eacute;reos</a></li>
                       </ul>
-                    </div>
-              
-            </div>
-          </div>
-        </div>
-                
+                   </div>                
+                 
+           
+               <div class="small-6 small-offset-3 medium-12 borde-enlace  columns">
+                 <p class="rec-tit">OTROS ENLACES</p>
+                   <div class="row">
+                     <div class="small-8 small-offset-2 medium-12 columns">
+                       <ul class="text-center no-bullet seccion-lista">                       
+                         <li><a href="#">Cambio del d&iacute;a</a></li>
+                         <li><a href="#">El clima</a></li>
+                       </ul>
+                     </div>
+               
+             </div>
+           </div>
+         </div>
+         </div>
+
+      </div> <!-- aca termina el row inicial -->
+
+
+       
+              <!--   
 
                 <div class="small-10 borde medium-4 small-offset-1 columns">
                   <p class="rec-tit">NEWSLETTER</p>
@@ -333,7 +339,7 @@
                 </div>                  
               </div>
          
-
+ --> 
         <div class="row">
           <div class="small-12 small-centered columns">
             <p class="data-fiscal">2014.TRAVELLAB.Operadores tur&iacute;sticos desde 1989|<span>E.V.Y.T.LEG.10122 DISP.050/99</span></p>

@@ -594,8 +594,8 @@
 		
 
 	}
-/*
-	#seccion-lista{
+
+	.seccion-lista{
 
 		text-align: center !important;
 		font-family: lato-regular;
@@ -603,17 +603,17 @@
 		font-size: 12px;
 	}
 
-	#seccion-lista > ul {
+	.seccion-lista > ul {
 	  list-style-type:none;
 
 	}
 
 
-	#seccion-lista > li > a:hover,a:link,a:active,a:visited{
+	.seccion-lista>li>a:hover,a:link,a:active,a:visited{
 		text-decoration: none !important;
 		color: white !important;
 	}
-*/
+
 	.put{
 		background-image: url(../img/punto_menu.png);
 		background-repeat: no-repeat;
