@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/foundation.css" />
      <link rel="stylesheet" type="text/css" media="screen"  href="assets/css/estilo.css" />
      <link rel="stylesheet" type="text/css" media="screen"  href="assets/css/estilo-med.css" />
+     <link rel="stylesheet" type="text/css" media="screen"  href="assets/css/estilo-large.css" />
      <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
      <link rel="stylesheet" type="text/css"  href="assets/css/style.css" />
 
@@ -22,9 +23,9 @@
     
   
     <div class="row">
-      	<div class="small-4 medium-8 medium-offset-1 large-4 borde-bt columns qs">Quienes somos</div>
-      	<div class="small-4 medium-1 large-4 columns borde-bt contct borde-izquierda qs">Cont&aacute;ctenos</div>
-      	<div class="small-4 medium-1 medium-pull-1 borde-bt borde-izquierda columns">	
+      	<div class="small-4 medium-8 medium-offset-1 large-8 large-offset-1 borde-bt columns qs">Quienes somos</div>
+      	<div class="small-4 medium-1 large-1 columns borde-bt contct borde-izquierda qs">Cont&aacute;ctenos</div>
+      	<div class="small-4 medium-1 medium-pull-1 large-1 large-pull-1 borde-bt borde-izquierda columns">	
       		<div class="row">
       			<div class="small-6 medium-6 large-6 columns " ><a class="fb"  href="#"></a></div>
       			<div class="small-6 medium-6 large-6  columns " ><a class="tw"  href="#"></a></div>
@@ -275,11 +276,11 @@
         </div>
 
 
-        <div class="small-12 medium-4 columns borde-enlace reco ">
+        <div class="small-12 medium-4 columns borde-enlace alt reco ">
                <p class="rec-tit">SECCIONES</p>
                  <div class="row">
                     
-                        <div class="small-3 small-offset-2 medium-6 medium-offset-0  columns">
+                        <div class="small-3 small-offset-2 medium-4 medium-offset-2  columns">
                           <ul class="text-center no-bullet seccion-lista">
                             <li><a href="#">Quienes somos</a></li>
                             <li><a href="#">Contactanos</a></li>
@@ -287,7 +288,7 @@
                             <li><a href="#">Destinos</a></li>                     
                           </ul>
                         </div>
-                        <div class="small-3 small-pull-2 medium-6 medium-pull-0 columns">
+                        <div class="small-3 small-pull-2 medium-4 medium-pull-2 columns">
                             <ul class="text-center no-bullet seccion-lista">                       
                               <li><a href="#">Info &uacute;til</a></li>
                               <li><a href="#">Beneficios</a></li>
@@ -298,67 +299,52 @@
                                  
                  </div>
            
-                 <div class="small-6 small-offset-3 medium-12 medium-offset-0 borde-enlace  columns">
+                 <div class="small-6 small-offset-3 medium-12 medium-offset-0 borde-fb-tw-rojo otro-enl columns">
                     <p class="rec-tit">OTROS ENLACES</p>
-                        <div class="row">
-                              <div class="small-8 small-offset-2 medium-12 columns">
-                                  <ul class="text-center no-bullet seccion-lista">                       
-                                      <li><a href="#">Cambio del d&iacute;a</a></li>
-                                      <li><a href="#">El clima</a></li>
-                                  </ul>
-                              </div>
-                                   
-                            </div>
-                        </div>     
+                      <div class="row">
+                          <div class="small-8 small-offset-2 medium-12 medium-offset-0  columns">
+                            <ul class="text-center no-bullet seccion-lista">                       
+                                <li><a href="#">Cambio del d&iacute;a</a></li>
+                                <li><a href="#">El clima</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                   </div>     
          </div>
        
 
+         <div class="small-12 borde medium-4 alt reco columns">
+              <p class="rec-tit">NEWSLETTER</p>
+              <p class="new-ngr">Todas las ofertas en tu casilla de entrada</p>
+              <p class="news">Suscribite a nuestro newsletter semanal y<br>
+              obten&eacute; las &uacute;ltimas ofertas y novedades</p>
+                <div class="row"> 
+                  <div class="small-8 medium-8 columns" style="margin-left:12px;">
+                    <input type="email" placeholder="Email">
+                  </div>
+                  <div class="small-2 medium-2 rojo small-centered columns">
+                    <a href="" role="button" class="rojo boton-rojo">Suscribirme</a>
+                  </div>
+                  <div class="small-6 medium-8 small-pull-3 borde-enlace pad-fb-tw-rojo columns">
+                    <ul class="text-center no-bullet">
+                      <li><a class="fb-rojo" href="#"></a></li>
+                      <li><a class="tw-rojo" href="#"></a></li>                      
+                    </ul>
+                  </div>  
+                </div>
+          </div>
+            <div class="small-12  medium-12  columns">
+              <p class="data-fiscal">2014.TRAVELLAB.Operadores tur&iacute;sticos desde 1989|<span>E.V.Y.T.LEG.10122 DISP.050/99</span></p>
+            </div>
       </div> <!-- aca termina el row inicial -->
 
-<!-- 
-                  <div class="small-6 small-offset-3 medium-12 borde-enlace  columns">
-                    <p class="rec-tit">OTROS ENLACES</p>
-                      <div class="row">
-                        <div class="small-8 small-offset-2 medium-12 columns">
-                          <ul class="text-center no-bullet seccion-lista">                       
-                            <li><a href="#">Cambio del d&iacute;a</a></li>
-                            <li><a href="#">El clima</a></li>
-                          </ul>
-                        </div>
-                  
-                </div>
-              </div>
-                 -->
 
-               <!--  <div class="small-10 borde medium-4 small-offset-1 columns">
-                  <p class="rec-tit">NEWSLETTER</p>
-                  <p class="new-ngr">Todas las ofertas en tu casilla de entrada</p>
-                  <p class="news">Suscribite a nuestro newsletter semanal y<br>
-                  obten&eacute; las &uacute;ltimas ofertas y novedades</p>
-                  <div class="row"> 
-                    <div class="small-8 medium-8 columns" style="margin-left:12px;">
-                      <input type="email" placeholder="Email">
-                    </div>
-                    <div class="small-2 medium-2 rojo small-centered columns">
-                      <a href="" role="button" class="rojo boton-rojo">Suscribirme</a>
-                    </div>
-                    <div class="small-6 medium-2 small-pull-3 borde-enlace pad-fb-tw-rojo columns">
-                        <ul class="text-center no-bullet">
-                        <li><a class="fb-rojo" href="#"></a></li>
-                        <li><a class="tw-rojo" href="#"></a></li>                      
-                      </ul>
-                    </div>  
-                  </div>
-                </div>                  
-              </div>
-         
- --> 
-        <div class="row">
-          <div class="small-12 small-centered columns">
+       <!--  <div class="row">
+          <div class="small-12  medium-12  columns">
             <p class="data-fiscal">2014.TRAVELLAB.Operadores tur&iacute;sticos desde 1989|<span>E.V.Y.T.LEG.10122 DISP.050/99</span></p>
           </div>
         </div>
-  
+   -->
    
       
      
