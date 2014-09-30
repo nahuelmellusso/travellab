@@ -15,3 +15,10 @@ Route::get('/', function()
 {
 	return View::make('welcome');
 });
+
+Route::get('/usuario', function()
+{
+	return View::make('private/login');
+});
+
+Route::get('usuario/login', array('uses' => 'login@login'));

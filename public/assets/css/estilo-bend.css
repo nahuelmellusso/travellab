@@ -1,0 +1,17 @@
+.logo{
+	background-image: url(../img/travel.png);
+	background-repeat: no-repeat;
+	background-size: 212px 133px;
+	z-index: 1;
+	position: absolute;
+	height: 89px;
+	width: 183px;
+
+
+}
+
+.cab{
+	background-color: black;
+	height: 150px;
+
+}

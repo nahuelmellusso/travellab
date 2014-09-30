@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'driver' => 'eloquent',
+	'driver' => 'fluent',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'model' => 'User',
+	'model' => '',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return array(
 	|
 	*/
 
-	'table' => 'users',
+	'table' => 'usuarios',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -67,5 +67,9 @@ return array(
 		'expire' => 60,
 
 	),
+
+	'username' => 'username',//username a utilizar de la tabla usuarios
+	 
+	'password' => 'password',//password a utilizar de la tabla usuarios
 
 );
