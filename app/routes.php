@@ -21,4 +21,5 @@ Route::get('/usuario', function()
 	return View::make('private/login');
 });
 
-Route::get('usuario/login', array('uses' => 'login@login'));
+// Route::get('usuario/login', array('uses' => 'cpanel@dologin'));
+Route::post('usuario/login', array('uses' => 'private/CpanelController@dologin'));

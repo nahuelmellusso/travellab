@@ -11,8 +11,10 @@
 <div class="page-header">
   <h1>Iniciar sesion</h1>
 </div>
-<form method="post" action="usuario/login" class="form-horizontal">
-  <!-- CSRF Token -->
+
+{{ Form::open(array('url' => 'usuario/login','class'=>'form')) }}
+<!-- <form method="post" action="{{ url('usuario/login') }} " class="form-horizontal">
+ -->  <!-- CSRF Token -->
   <input type="hidden" name="csrf_token" id="csrf_token" value="{{{ Session::getToken() }}}" />
 
   <!-- Email -->
@@ -36,6 +38,6 @@
       <button type="submit" class="button">Login</button>
   <!-- ./ login button -->
   </div>
-</form>
+{{ Form::close() }}
 @stop
   
