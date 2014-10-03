@@ -34,27 +34,27 @@
     </div>
 
     <div class="row">
-    	<div class="small-12 medium-12 columns ">
+    	<div class="small-12 medium-12 large-12 columns ">
     		<img class="marg-logo" data-interchange="([../public/assets/img/travel-logo.png, (default)], [../public/assets/img/travel-logo.png, (small)], [../public/assets/img/travel-logo.png, (medium)]">
     	</div>
     </div>
 
     <div class="row">
-      <div class="medium-11 columns menu-inicio">
+      <div class="medium-11 large-11 columns menu-inicio">
         <div class="row">
-          <div class="medium-1  medium-offset-4  columns">
+          <div class="medium-1  medium-offset-4  large-1 large-offset-4 columns">
             <a class="miabl active" href="">Inicio</a>
           </div>
-          <div class="medium-1  columns">
+          <div class="medium-1 large-1 columns">
             <a class="miabl" href="">Destinos</a>
           </div>
-          <div class="medium-1  columns">
+          <div class="medium-1 large-1 columns">
             <a class="miabl" href="">Bodas</a>
           </div>
-          <div class="medium-1  columns">
+          <div class="medium-1 large-1 columns">
             <a class="miabl" href="">Seguros</a>
           </div>
-          <div class="medium-2 columns">
+          <div class="medium-2 large-2 columns">
             <a class="miabl-l " href="">Medios de pago</a>
           </div>
           
@@ -63,55 +63,55 @@
     </div>
 
     <div class="row marg-barra">
-      <div class="small-12 medium-3 medium-offset-1 columns menu">
+      <div class="small-12 medium-3 medium-offset-1 large-3 large-offset-1 columns menu">
         <div class="row collapse">
-            <div class="small-2 small-offset-1 medium-2  columns">
+            <div class="small-2 small-offset-1 medium-2 large-2 columns">
               <label class="menu-label">¿D&oacute;nde?</label>
             </div>
-            <div class="small-6 medium-6 columns">             
+            <div class="small-6 medium-6 large-6 columns">             
               <input type="text"  placeholder="Ingresa un destino">
             </div>
-            <div class="small-2 small-pull-1 medium-2  columns put">                
+            <div class="small-2 small-pull-1 medium-2 large-2  columns put">                
             </div>
         </div>
       </div>
 
 
-      <div class="small-12 medium-3 columns menu">
+      <div class="small-12 medium-3 large-3 columns menu">
         <div class="row collapse">
-          <div class="small-2 medium-2 small-offset-1 columns">
+          <div class="small-2 medium-2 large-2 small-offset-1 columns">
             <label class="menu-label">¿Cuando?</label>
           </div>
-          <div class="small-3 medium-3 columns">             
+          <div class="small-3 medium-3 large-3 columns">             
             <input type="date"  placeholder="Ingresa un destino">
           </div>
-          <div class="small-3 medium-3 columns">             
+          <div class="small-3 medium-3 large-3 columns">             
             <input type="date"  placeholder="Ingresa un destino">
           </div>
-          <div class="small-2 medium-2 small-pull-1 columns cal">                
+          <div class="small-2 medium-2 small-pull-1 large-3 columns cal">                
         </div>
       </div>
     </div>
 
-     <div class="small-12 medium-3  columns menu">
+     <div class="small-12 medium-3 large-3 columns menu">
         <div class="row collapse">
-          <div class="small-2 small-offset-1 medium-2 columns">
+          <div class="small-2 small-offset-1 medium-2 large-2 columns">
             <label class="menu-label">¿Precio?</label>
           </div>
-          <div class="small-3 medium-3 columns">             
+          <div class="small-3 medium-3 large-3 columns">             
             <input type="text"  placeholder="Ingresa un destino">
           </div>
-          <div class="small-3 medium-3 columns">             
+          <div class="small-3 medium-3 large-3 columns">             
             <input type="text"  placeholder="Ingresa un destino">
           </div>
-          <div class="small-2 small-pull-1 medium-3  columns pre">                
+          <div class="small-2 small-pull-1 medium-3 large-3 columns pre">                
         </div>
       </div>
     </div>
 
-    <div class="small-12 medium-1 medium-pull-1 columns  menu">
+    <div class="small-12 medium-1 medium-pull-1 large-1 large-pull-1 columns  menu">
       <div class="row">
-        <div class="small-6 medium-12 small-centered pad-menu columns">
+        <div class="small-6 medium-12 large-12 small-centered pad-menu columns">
           <a class="buscar-rojo" role="button" href="">Buscar</a>
         </div>      
       </div>
@@ -125,14 +125,14 @@
 
 
 <div class="row">
-  <div class="small-12 medium-12 columns orb margin-orbit">
+  <div class="small-12 medium-12 large-12 columns orb margin-orbit">
   		<div class="row">
 
-    		<div class="small-6 small-offset-6 medium-4 medium-offset-8 columns globo">
+    		<div class="small-6 small-offset-6 medium-4 medium-offset-8 large-4 large-offset-8 columns globo">
     			<input type="email" class="mail-news" placeholder="Email">
     			<a class="suscribe" href="">Suscribirme al Newsletter</a>
     		</div>
-    		<div class="small-6 mdium-6 columns etiqueta "> 
+    		<div class="small-6 mdium-6 large-6 columns etiqueta "> 
     			<ul class="inline-list transp no-bullets">
     			    <li><a class="punto-bco" href="#">Ver en el mapa</a></li>
     			    <li><a class="mas-inf" href="#">M&aacute;s info</a></li>
@@ -209,13 +209,13 @@
 
 
     <div class="row encontra">
-      <div class="small-12 medium-12 columns">
+      <div class="small-12 medium-12 large-12 columns">
         <p class="p-en-negr">¿Ya sabes qu&eacute; quer&eacute;s hacer en tus vacaciones?</p>
         <p class="p-en">Encontr&aacute; tu viaje</p>
       </div>
-      <div class="small-12 medium-12  columns">
+      <div class="small-12 medium-12 large-12 columns">
         <div class="row">
-          <div class="small-12 medium-6 columns">
+          <div class="small-12 medium-6 large-6 columns">
            <ul class="inline-list list-hei">
                <li class="padd mrlft"><a class="aventura" href="#">Aventura</a></li>
                <li class="padd"><a class="safari" href="#">Safari</a></li>
@@ -224,7 +224,7 @@
                <li class="padd"><a class="escapadas" href="#">Escapadas</a></li>
             </ul> 
            </div>
-           <div class="small-12 medium-6 columns">
+           <div class="small-12 medium-6 large-6 columns">
             <ul class="inline-list list-h">    
                <li class="padd-2 pad"><a class="cruceros" href="#">Cruceros</a></li>
                <li class="padd-2"><a class="cultura" href="#">Cultura</a></li>
@@ -237,26 +237,26 @@
     </div>
    
     <div class="row padd-esperando">
-      <div class="small-12 medium-12 columns">
+      <div class="small-12 medium-12 large-12 columns">
         <p class="p-en-negr">¿Que est&aacute;s esperando?</p>
         <p class="p-en">Comenz&aacute; a planificar tus vacaciones</p>
         <div class="row">
-          <div class="small-12   medium-4 marg columns">
+          <div class="small-12   medium-4 large-4 marg columns">
             <p class="esp tel">LLAMANOS</p>
             <p class="tf">+54 223 <span class="tfg">4910869</span></p>
             <p class="lr">Lineas Rotativas</p>
           </div>
-          <div class="small-12 medium-4 columns">
+          <div class="small-12 medium-4 large-4 columns">
             <p class="esp punto">VENITE A LA OFI</p>
             <p class="tfg">Rivadavia 2678, local 5. MDQ</p>
             <p class="lr">¿No sabes como llegar?<span style="color:red"> Mir&aacute; el mapa</span></p>
           </div>
-          <div class="small-12 medium-4 marg-2 columns">
+          <div class="small-12 medium-4 large-4 marg-2 columns">
             <p class="esp escribinos">ESCRIBINOS</p>
             <p class="tfg">Consultas@travel-lab.com.ar</p>
             <p class="lr">o complet&aacute; el <a style="color:red" href="">formulario</a></p>
           </div>
-          <div class="small-12 medium-12 columns">
+          <div class="small-12 medium-12 large-12 columns">
             <p class="at esp auto">No queremos que te preocupes por nada, por eso<br>
             te regalamos 1 hora de <span style="font-weight:bold;">estacionamiento GRATIS</span></p>
           </div>
@@ -266,7 +266,7 @@
 
      <div class="row">
 
-        <div class="small-12 medium-4 columns reco">
+        <div class="small-12 medium-4 large-4 columns reco">
           <p class="rec-tit">RECOMENDAMOS</p>
           <p class="rec-vin marg">Empresas vinculadas</p>
           <ul class="no-bullet">
@@ -276,11 +276,11 @@
         </div>
 
 
-        <div class="small-12 medium-4 columns borde-enlace alt reco ">
+        <div class="small-12 medium-4 large-4 columns borde-enlace alt reco ">
                <p class="rec-tit">SECCIONES</p>
                  <div class="row">
                     
-                        <div class="small-3 small-offset-2 medium-4 medium-offset-2  columns">
+                        <div class="small-3 small-offset-2 medium-4 medium-offset-2 large-4 large-offset-2  columns">
                           <ul class="text-center no-bullet seccion-lista">
                             <li><a href="#">Quienes somos</a></li>
                             <li><a href="#">Contactanos</a></li>
@@ -288,7 +288,7 @@
                             <li><a href="#">Destinos</a></li>                     
                           </ul>
                         </div>
-                        <div class="small-3 small-pull-2 medium-4 medium-pull-2 columns">
+                        <div class="small-3 small-pull-2 medium-4 medium-pull-2 large-4 large-pull-2 columns">
                             <ul class="text-center no-bullet seccion-lista">                       
                               <li><a href="#">Info &uacute;til</a></li>
                               <li><a href="#">Beneficios</a></li>
@@ -299,10 +299,10 @@
                                  
                  </div>
            
-                 <div class="small-6 small-offset-3 medium-12 medium-offset-0 borde-fb-tw-rojo otro-enl columns">
+                 <div class="small-6 small-offset-3 medium-12 medium-offset-0 large-12 large-offset-0 borde-fb-tw-rojo otro-enl columns">
                     <p class="rec-tit">OTROS ENLACES</p>
                       <div class="row">
-                          <div class="small-8 small-offset-2 medium-12 medium-offset-0  columns">
+                          <div class="small-8 small-offset-2 medium-12 medium-offset-0  large-12 large-offset-0 columns">
                             <ul class="text-center no-bullet seccion-lista">                       
                                 <li><a href="#">Cambio del d&iacute;a</a></li>
                                 <li><a href="#">El clima</a></li>
@@ -313,19 +313,19 @@
          </div>
        
 
-         <div class="small-12 borde medium-4 alt reco columns">
+         <div class="small-12 borde medium-4 large-4 alt reco columns">
               <p class="rec-tit">NEWSLETTER</p>
               <p class="new-ngr">Todas las ofertas en tu casilla de entrada</p>
               <p class="news">Suscribite a nuestro newsletter semanal y<br>
               obten&eacute; las &uacute;ltimas ofertas y novedades</p>
                 <div class="row"> 
-                  <div class="small-8 medium-8 columns" style="margin-left:12px;">
+                  <div class="small-8 medium-8 large-8 columns" style="margin-left:12px;">
                     <input type="email" placeholder="Email">
                   </div>
-                  <div class="small-2 medium-2 rojo small-centered columns">
+                  <div class="small-2 medium-2 large-2 rojo small-centered columns">
                     <a href="" role="button" class="rojo boton-rojo">Suscribirme</a>
                   </div>
-                  <div class="small-6 medium-8 small-pull-3 borde-enlace pad-fb-tw-rojo columns">
+                  <div class="small-6 medium-8 large-8 small-pull-3 borde-enlace pad-fb-tw-rojo columns">
                     <ul class="text-center no-bullet">
                       <li><a class="fb-rojo" href="#"></a></li>
                       <li><a class="tw-rojo" href="#"></a></li>                      
@@ -333,7 +333,7 @@
                   </div>  
                 </div>
           </div>
-            <div class="small-12  medium-12  columns">
+            <div class="small-12  medium-12 large-12 columns">
               <p class="data-fiscal">2014.TRAVELLAB.Operadores tur&iacute;sticos desde 1989|<span>E.V.Y.T.LEG.10122 DISP.050/99</span></p>
             </div>
       </div> <!-- aca termina el row inicial -->

@@ -801,11 +801,11 @@
 	.globo{
 		background-image: url(../img/circulo.png);
 		background-repeat: no-repeat;
-		background-size: 106px  115px;
+		background-size: 106px 115px;
 		background-size: 232px 229px;
-		background-position: 21px 69px;
+		background-position: 23px 68px;
 		position: absolute;
-		width: 249px;
+		width: 250px;
 		height: 350px;
 		z-index: 1;
 		text-align: center;
