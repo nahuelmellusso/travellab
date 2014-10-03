@@ -12,7 +12,7 @@
   <h1>Iniciar sesion</h1>
 </div>
 
-{{ Form::open(array('url' => 'usuario/login','class'=>'form')) }}
+{{ Form::open(array('url' => 'login','class'=>'form')) }}
 <!-- <form method="post" action="{{ url('usuario/login') }} " class="form-horizontal">
  -->  <!-- CSRF Token -->
   <input type="hidden" name="csrf_token" id="csrf_token" value="{{{ Session::getToken() }}}" />
