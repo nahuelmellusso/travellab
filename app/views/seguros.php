@@ -97,6 +97,15 @@
 
     </div>
 
+    <!-- buscador -->
+
+    <div class="row">
+      <div class="small-12 medium-12 large-12 columns">
+        <p>Tienes dudas acerca de si realmente necesitas un seguro ...</p>
+      </div>
+    </div>
+
+
 
     <div class="row">
 
