@@ -4,7 +4,7 @@ class CpanelController extends \BaseController {
 
 	public function showWelcome()
 	  {
-	      return View::make('private/login');
+	      return View::make('private/principal');
 	  }
 
 	  public function showLogin()
