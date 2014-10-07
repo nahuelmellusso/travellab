@@ -128,11 +128,27 @@
 
     <div class="row">
       <div class="small-12 medium-5 medium-offset-1 large-5 large-offset-1 columns">
-        <p class="checkbox seg-que-el">Ante todo, tener en cuenta ad&oacute;nde vamos, y con qui&eacute;n/es</p>
+        <p class="checkbox seg-que-el">Ante todo, tener en cuenta ad&oacute;nde vamos, y con qui&eacute;n/es.</p>
+        <p class="checkbox seg-que-el">Cuando se viaja con ni&ntilde;os o con personas mayores las eventualidades posibles cobran una dimensi&oacute;n
+          m&aacute;s importante, por lo que debemos prevenir seleccionando un plan de asistencia al viajero con l&iacute;mites altos de cobertura.</p>
+        <p class="checkbox seg-que-el">Los planes de asistencia al viajero para familia suelen ser mucho m&aacute;s econ&oacute;micos, lo que permite
+          subir los l&iacute;mites sin aumentar proporcionalmente los costos.</p>
+        <p class="checkbox seg-que-el"></p>
       </div>
+      <div class="small-12 medium-5 medium-pull-1 large-5 large-pull-1 seg-acer-min columns">
+        <p class="checkbox seg-que-el">Cada destino tiene sus caracter&iacute;sticas especiales y ciertos costos est&aacute;ndares que debemos considerar.</p>
+        <p class="checkbox seg-que-el">Una fractura en Estados Unidos puede costar alrededor de USD 50000. Mientras que en cualquier pa&iacute;s de America Latina, el mismo evento
+          ronda los USD 6000.</p>
+        <p class="checkbox seg-que-el">La duraci&oacute;n y el prop&oacute;sito del viaje tambi&eacute;n son condicionantes. Si vamos a esquiar, estaremos m&aacute;s expuestos
+        a cualquier incidente, por lo que es recomendable tenerlo previsto.</p>
+      </div> 
     </div>
 
-
+    <div class="row">
+      <div class="small-12 medium-10 medium-offset-1 large-10 large-offset-1 borde-que-elegir columns">
+        <p class="seg-tit">C&oacute;mo interpretar lo que ofrece un plan de asistencia al viajero:</p>
+      </div>
+    </div>
 
 
     <div class="row">
