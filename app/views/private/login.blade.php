@@ -12,6 +12,8 @@
   <h1>Iniciar sesion</h1>
 </div>
 
+
+
 {{ Form::open(array('url' => 'login','class'=>'form')) }}
 <!-- <form method="post" action="{{ url('usuario/login') }} " class="form-horizontal">
  -->  <!-- CSRF Token -->

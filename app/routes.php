@@ -22,8 +22,15 @@ Route::get('/usuario', function()
 });
 
 
+
+
+
+
 Route::get('login', array('uses' => 'CpanelController@dologin'));
 Route::post('login', array('uses' => 'CpanelController@dologin'));
 Route::get('private/login', array('uses' => 'CpanelController@showWelcome'));
-// Route::get('cotizar', array('uses' => 'cotizarControler@index'));
+Route::post('login', array('as' => 'login', 'uses' => 'CpanelController@dologin'));
 Route::get('cotizar', array('as' => 'cotizar', 'uses' => 'cotizarControler@index'));
+
+
+
