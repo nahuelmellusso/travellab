@@ -899,7 +899,12 @@
 		margin-left: -5%;
 		width: 109%;
 		}*/
-	.margin-orbit{
-		margin-top: -73px;
-	}	
+	.seg-tit{
+		font-family:lato-Regular;
+		font-size: 20px;
+		}
+	.seg-acer{
+		font-family: lato-Light;
+		font-size: 16px;
+		}	
 }

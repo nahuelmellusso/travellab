@@ -901,5 +901,44 @@
 		}*/
 	.margin-orbit{
 		margin-top: -73px;
+	}
+
+	.seg-tit{
+	font-family:lato-Regular;
+	font-size: 20px;
+	}
+	.seg-acer{
+		font-family: lato-Light;
+		font-size: 16px;
+	}
+
+	.seg-acer-negr{
+		font-family: lato-Bold;
+	}
+	.seg-acer-min{
+		font-family: lato-Light;
+		font-size: 14px;
+	}
+
+	.borde-que-elegir{
+		border-top: 1px solid;
+		margin-top: 30px;
+		padding-top: 30px;
+	}
+
+	.checkbox{
+		background: url(../img/checkbox.png);
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		background-position: -1px 1px;
+		position: relative;
+		z-index: 1;
+		
+	}
+
+	.seg-que-el{
+		font-family: lato-Light;
+		font-size: 14px;
+		padding-left: 27px;
 	}	
 }

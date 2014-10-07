@@ -690,6 +690,23 @@
 	margin-left: -5%;
 	width: 109%;
 	}
+
+	.seg-tit{
+	font-family:lato-Regular;
+	font-size: 20px;
+	}
+	.seg-acer{
+		font-family: lato-Light;
+		font-size: 16px;
+	}	
+	.seg-acer-negr{
+		font-family: lato-Bold;
+	}
+	.seg-acer-min{
+		font-family: lato-Light;
+		font-size: 14px;
+	}	
+
+
 }
 
-.ana{}

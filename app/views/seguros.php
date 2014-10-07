@@ -100,10 +100,38 @@
     <!-- buscador -->
 
     <div class="row">
-      <div class="small-12 medium-12 large-12 columns">
-        <p>Tienes dudas acerca de si realmente necesitas un seguro ...</p>
+      <div class="small-12 medium-11 medium-offset-1 large-11 large-offset-1  columns">
+        <p class="seg-tit">Tienes dudas acerca de si realmente necesitas un seguro ...</p>
       </div>
     </div>
+
+    <div class="row">
+      <div class="small-12 medium-5 medium-offset-1 large-5 large-offset-1 seg-acer columns">
+        La realidad es que viajer esperando que pase algo malo</br> no es necesariamente el pie con el que deber&iacute;as </br> comenzar tu viaje.</br></br>
+        No obstante luego de mucho años de experiencia y</br> escuchando miles de testimonios de viajeros tenemos</br> algunos datos importantes 
+        que tenes que saber: 
+      </div>
+      <div class="small-12 medium-5 medium-pull-1 large-5 large-pull-1 seg-acer-min columns">
+        <span class="seg-acer-negr">Determinados pa&iacute;ses para sacar la visa exigen contar con un seguro.</span> Para Argentina algunos pa&iacute;ses que piden seguro obligatorio
+        son Comunidad Europea, Cuba entre otros.</br></br>
+        <span class="seg-acer-negr">Otro caso importante se da para toda la gente que tiene problemas en empezar su primer viaje.</span> Es natural tener miedos, solo que unos tienen
+        m&aacute;s que otros. Hay gente arriesgada y gente precavida, gente venturosa y gente preparada. No es obligatorio hacer algo con que pierdes 
+        la comodidad.  
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-12 medium-10 medium-offset-1  large-10 large-offset-1 borde-que-elegir columns">
+        <p class="seg-tit">¿Qu&eacute; seguro elegir?</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-12 medium-5 medium-offset-1 large-5 large-offset-1 columns">
+        <p class="checkbox seg-que-el">Ante todo, tener en cuenta ad&oacute;nde vamos, y con qui&eacute;n/es</p>
+      </div>
+    </div>
+
 
 
 
