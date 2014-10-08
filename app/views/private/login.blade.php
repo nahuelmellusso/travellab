@@ -14,7 +14,8 @@
 
 
 
-{{ Form::open(array('url' => 'login','class'=>'form')) }}
+
+{{ Form::open(array('url' => 'cpanel/signin','class'=>'form')) }}
 <!-- <form method="post" action="{{ url('usuario/login') }} " class="form-horizontal">
  -->  <!-- CSRF Token -->
   <input type="hidden" name="csrf_token" id="csrf_token" value="{{{ Session::getToken() }}}" />
@@ -22,7 +23,7 @@
   <!-- Email -->
   <div class="row">
       <div class="large-4 colums {{{ $errors->has('username') ? 'error' : '' }}}">
-        <label for="username">Email</label>
+        <label for="username">Usuario</label>
         <input type="text" name="username" id="username" value="{{{ Input::old('username') }}}" />
         {{{ $errors->first('username') }}}
       </div>
@@ -42,4 +43,8 @@
   </div>
 {{ Form::close() }}
 @stop
+
+
+
+
   

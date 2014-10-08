@@ -1,5 +1,7 @@
 <?php
 
+
+Route::controller('cpanel', 'CpanelController');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,10 +13,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('seguros');
-});
+
 
 Route::get('/usuario', function()
 {
@@ -22,15 +21,18 @@ Route::get('/usuario', function()
 });
 
 
+Route::get('/', function()
+{
+	return View::make('seguros');
+});
 
 
-
-
+/*
 Route::get('login', array('uses' => 'CpanelController@dologin'));
 Route::post('login', array('uses' => 'CpanelController@dologin'));
 Route::get('private/login', array('uses' => 'CpanelController@showWelcome'));
 Route::post('login', array('as' => 'login', 'uses' => 'CpanelController@dologin'));
 Route::get('cotizar', array('as' => 'cotizar', 'uses' => 'cotizarControler@index'));
-
+*/
 
 
