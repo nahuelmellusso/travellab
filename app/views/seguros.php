@@ -99,6 +99,17 @@
 
     <!-- buscador -->
 
+
+    <div class="row">
+      <div class="small-12 medium-12 large-12 necesitas columns">
+        <div class="row">
+          <div class="small-12 medium-11 medium-offset-1 large-11 large-offset-1  columns">
+            <p>¿Necesitas un seguro para tu viaje?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="row">
       <div class="small-12 medium-11 medium-offset-1 large-11 large-offset-1  columns">
         <p class="seg-tit">Tienes dudas acerca de si realmente necesitas un seguro ...</p>
@@ -148,6 +159,51 @@
       <div class="small-12 medium-10 medium-offset-1 large-10 large-offset-1 borde-que-elegir columns">
         <p class="seg-tit">C&oacute;mo interpretar lo que ofrece un plan de asistencia al viajero:</p>
       </div>
+    </div>
+
+    <div class="row margin-seg">
+      <div class="small-12 medium-5 medium-offset-1 large-5 large-offset-1 columns">
+        <p class="como-num"><span class="num">1.</span> Asistencia m&eacute;dica por accidente:</p>
+        <p class="seg-que-el como-pad">Uno de los puntos principales en los seguros de viajes es el de proteger tu salud. Contrat&aacute; tu plan de asistencia al 
+          viajero con suficientes coberturas m&eacute;dicas dependiendo  del destino elegido. Es importante constatar si los topes son totales, o por evento.</p>
+        <p class="como-num"><span class="num">2.</span> Translado sanitario:</p>
+        <p class="seg-que-el como-pad">En caso de accidente grave,es muy importante que la cobertura de translado sea lo suficientemente elevada y sin franquicias.</p>  
+        <p class="como-num"><span class="num">3.</span> Repatriaci&oacute;n Funeraria:</p>
+        <p class="seg-que-el como-pad">En caso de fallecimiento, la repatriaci&oacute;n suele ser muy costosa,y es una preocupaci&oacute;n dif&iacute;cil de afrontar para los
+          familiares,sobre todo, cuando est&aacute;n transitando una p&eacute;rdida.Contar con este punto resuelto, si bien no alivia, al menos no agrava la situaci&oacute;n
+          en estos casos extremos.</p>
+        <p class="como-num"><span class="num">4.</span> Quiebra de la compa&ntilde;&iacute;a a&eacute;rea:</p>
+        <p class="seg-que-el como-pad">No es usual que suceda, pero algunas veces...sucede.Es recomendable tener asegurado el regresoa casa en el caso de que la l&iacute;nea
+          a&eacute;rea con la que salimos...no regrese.</p>
+        <p class="como-num"><span class="num">5.</span> Robo o p&eacute;rdida de equipaje:</p>
+        <p class="seg-que-el como-pad">Esta es la cobertura m&aacute;s frecuente en relaci&oacute;n  a los siniestros.El robo o p&eacute;rdida de equipaje y la documentaci&oacute;n
+         debe quedar suficientemente cubierta por las garant&iacute;as de tu p&oacute;liza de seguros de viaje, ya que esta incidencia supone uno de los mayores problemas
+         y una gran molestia cuando se encuentra lejos de su domicilio habitual.Siempre verifica si el tope es total o complementario al de la compa&ntilde;&iacute;a a&eacute;rea.</p>
+         <p class="como-num"><span class="num">6.</span> Asistencia Telef&oacute;nica las 24hs:</p>
+         <p class="seg-que-el como-pad">Es muy importante que la compa&ntilde;&iacute;a de asistencia al viajero te brinde un tel&eacute;fono de atenci&oacute;n al cliente las 24 horas al d&iacute;a,
+          con n&uacute;meros locales o bien cobro revertido, todos los d&iacute;as del a&ntilde;o, para atender dudas o reclamaciones.Este n&uacute;mero tambi&eacute;n debe estar disponible para 
+          coordinar casos y de ser posible por la infraestructura m&eacute;dica del lugar,brindarte atenci&oacute;n en el pa&iacute;s donde te encuentras.</p>      
+         
+      </div>
+      <div class="small-12 medium-5 medium-pull-1 large-5 large-pull-1  columns">
+        <p class="como-num"><span class="num">7.</span> Estancia en el hotel por convalecencia:</p>
+        <p class="seg-que-el como-pad">en caso de que por alg&uacute;n motivo de salud fuera recomendable postergar el regreso, el plan ideal de asistencia al viajero debe cubrir
+          la prolongaci&oacute;n de la estancia en el hotel, al menos de cinco d&iacute;as.</p>
+          <p class="como-num"><span class="num">8.</span> Responsabilidad Civil:</p>
+          <p class="seg-que-el como-pad">Cada vez m&aacute;s seguros de viaje incorporan gastos de responsabilidad civil.Si la contratas para tu hogar por qu&eacute; no hacerlo para tu viaje al exterior?.Poseer una cobertura
+            de responsabilidad civil puede resultarte de gran utilidad en el extranjero,sobre todo si sufre alg&uacute;n incidente o accidente con da&ntilde;os personales a terceros.</p>
+          <p class="como-num"><span class="num">9.</span> Deporte de Riesgo:</p>
+          <p class="seg-que-el como-pad">Si durante tu viaje vas a realizar actividades o deportes,no dejes de comprar un plan espec&iacute;fico.Una simple fractura implica altos gastos de traslados, y los mismos por lo general
+            no se encuentran contemplados en los planes habituales.</p>  
+          <p class="como-num"><span class="num">10.</span> Coberturas de Cancelaci&oacute;n de Viaje:</p>
+          <p class="seg-que-el como-pad">Algunos planes de asistencia al viajero incluyen gastos de anulaci&oacute;n por si al cliente le surge alg&uacute;n imprevisto que le impida comenzar el viaje.
+            Al tener que cancelar tu viaje, es muy com&uacute;n deber abonar una penalizaci&oacute;n por esa cancelaci&oacute;n, que puede llegar a ser el %100 de la reserva.Resulta especialmente &uacute;til
+            para los viajes organizados con mucha anticipaci&oacute;n poseer una cobertura de cancelaci&oacute;n de viaje.</p>
+          <p class="como-num"><span class="num">11.</span> Limites de cobertura:</p>
+          <p class="seg-que-el como-pad">Los planes mas econ&oacute;micos de asistencia al viajero por lo general tienen menos cobertura.Para algunos el precio parece m&aacute;s importante, pero realmente vale la pena
+            el ahorro inicial?..</p>
+          <p class="ahorra">En caso de que realices varios viajes al a&ntilde;o, recomendamos que consideres la posibilidad de una p&oacute;liza anual.Ahorrar&aacute;s tiempo y dinero.</p>                    
+      </div> 
     </div>
 
 
