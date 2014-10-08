@@ -967,8 +967,21 @@
 		margin-bottom: 40px;
 	}
 
-	.necesitas{
+	.necesitas-bg{
 		background-color: #E13333;
 		margin-top: 50px; 
+	}
+
+	.necesitas-tit{
+		font-family: Lato-Bold;
+		font-size: 18px;
+		padding-top: 20px;
+		color: black;
+	}
+
+	.necesitas-cu{
+		font-family: lato-Light;
+		font-size: 16px;
+		color: black;
 	}	
 }

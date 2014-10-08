@@ -101,11 +101,14 @@
 
 
     <div class="row">
-      <div class="small-12 medium-12 large-12 necesitas columns">
+      <div class="small-12 medium-12 large-12 necesitas-bg columns">
         <div class="row">
           <div class="small-12 medium-11 medium-offset-1 large-11 large-offset-1  columns">
-            <p>¿Necesitas un seguro para tu viaje?</p>
+            <p class="necesitas-tit">¿Necesitas un seguro para tu viaje?</p>
+            <p class="necesitas-cu">Travel lab busca la mejor alternativa para poder acercarte al seguro espec&iacute;fico para tu viaje. <span class="seg-acer-negr">Envianos tu consulta</span> y nos</br> pondremos en contacto
+              con vos para orientarte  y ofrecerte lo m&aacute;s conveniente seg&uacute;n tu necesidad.</p>
           </div>
+
         </div>
       </div>
     </div>

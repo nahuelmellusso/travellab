@@ -960,5 +960,9 @@
 
 	.margin-seg{
 		margin-bottom: 40px;
-	}			
+	}
+	.necesitas{
+		background-color: #E13333;
+		margin-top: 50px; 
+	}				
 }
