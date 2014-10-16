@@ -1,6 +1,6 @@
 <?php
 
-class cotizarControler extends \BaseController {
+class usuarioController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -9,7 +9,7 @@ class cotizarControler extends \BaseController {
 	 */
 	public function getIndex()
 	{
-		return View::make('private/cotizar');
+		 return View::make('private/login');
 	}
 
 
