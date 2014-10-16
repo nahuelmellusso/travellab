@@ -1,60 +1,38 @@
 <?php
 
-class CpanelController extends \BaseController {
+class CpanelController extends BaseController {
 
-	public function showWelcome()
-	  {
-	      return View::make('private/principal');
-	  }
+	protected $layout = "private/cpanel";
 
-	  public function showLogin()
-	  {
-	      // show the form
-	      return View::make('private/login');
-	  }
+	public function __construct() {
+		$this->beforeFilter('csrf', array('on'=>'post'));
+		$this->beforeFilter('auth', array('only'=>array('getDashboard')));
+	}
 
-	  public function doLogin()
-	  {
-	      // validate the info, create rules for the inputs
-	      $rules = array(
-	          'username'    => 'required|alpha', // make sure the email is an actual email
-	          'password' => 'required|alphaNum|min:3' // password can only be alphanumeric and has to be greater than 3 characters
-	      );
+	
+	
+	public function getLogin() {
+		$this->layout->content = View::make('private/login');
+	}
 
-	      // run the validation rules on the inputs from the form
-	      $validator = Validator::make(Input::all(), $rules);
+	public function postSignin() {
+		if (Auth::attempt(array('username'=>Input::get('username'), 'password'=>Input::get('password')))) {
+			return Redirect::to('private/cpanel')->with('message', 'You are now logged in!');
+		} else {
+			return Redirect::to('private/login')
+				->with('message', 'Your username/password combination was incorrect')
+				->withInput();
+		}
+	}
 
-	      // if the validator fails, redirect back to the form
-	      if ($validator->fails()) {
-	          return Redirect::to('private/login')
-	              ->withErrors($validator) // send back all errors to the login form
-	              ->withInput(Input::except('password')); // send back the input (not the password) so that we can repopulate the form
-	      } else {
+	public function getDashboard() {
+		$this->layout->content = View::make('private/cpanel');
+	}
 
-	          // create our user data for the authentication
-	          $userdata = array(
-	              'username'     => Input::get('username'),
-	              'password'  => Input::get('password')
-	          );
-
-	          // attempt to do the login
-	          if (Auth::attempt($userdata)) {
-
-	              // validation successful!
-	              // redirect them to the secure section or whatever
-	              // return Redirect::to('secure');
-	              // for now we'll just echo success (even though echoing in a controller is bad)
-	             return Redirect::to('private/principal');
-
-	          } else {
-
-	              // validation not successful, send back to form
-	              return Redirect::to('private/login');
-
-	          }
-
-	      }
-	  }
+	public function getLogout() {
+		Auth::logout();
+		return Redirect::to('private/login')->with('message', 'Your are now logged out!');
+	}
 
 
 }
