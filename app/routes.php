@@ -14,15 +14,13 @@ Route::controller('cpanel', 'CpanelController');
 */
 
 
-<<<<<<< HEAD
+
 Route::controller('cotizar','cotizarControler');
 
 Route::get('/', function()
 {
 	return View::make('seguros');
 });
-=======
->>>>>>> 4ee7c664717fd09a2610b13038709910aff4c9ad
 
 Route::get('/usuario', function()
 {
@@ -32,12 +30,12 @@ Route::get('/usuario', function()
 
 Route::get('/', function()
 {
-	return View::make('seguros');
+	return View::make('slider');
 });
 
 
-<<<<<<< HEAD
-=======
+
+
 /*
 Route::get('login', array('uses' => 'CpanelController@dologin'));
 Route::post('login', array('uses' => 'CpanelController@dologin'));
@@ -46,5 +44,5 @@ Route::post('login', array('as' => 'login', 'uses' => 'CpanelController@dologin'
 Route::get('cotizar', array('as' => 'cotizar', 'uses' => 'cotizarControler@index'));
 */
 
->>>>>>> 4ee7c664717fd09a2610b13038709910aff4c9ad
+
 

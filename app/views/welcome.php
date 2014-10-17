@@ -168,11 +168,11 @@
 </div>
 
 
-<!-- <div class="row">
+ <div class="row">
 
-<div id="mi-slider" class="mi-slider small-12 columns">
+<div id="mi-slider" class="mi-slider small-12 medium-12 large-12 columns">
    <div class="row">
-   <div class="small-12 columns">
+   <div class="small-12  medium-12 large-12 columns">
     <ul>
         <li><a class="th" href="#"><img src="../public/assets/img/1.jpg" alt="img01"><h4>Boots</h4></a></li>
         <li><a class="th" href="#"><img src="../public/assets/img/2.jpg" alt="img02"><h4>Oxfords</h4></a></li>
@@ -180,7 +180,7 @@
        
     </ul>
     </div>
-    <div class="small-12 columns">
+    <div class="small-12  medium-12 large-12 columns">
     <ul>
         <li><a class="th" href="#"><img src="../public/assets/img/5.jpg" alt="img05"><h4>Belts</h4></a></li>
         <li><a class="th" href="#"><img src="../public/assets/img/6.jpg" alt="img06"><h4>Hats & Caps</h4></a></li>
@@ -188,7 +188,7 @@
         <li><a class="th" href="#"><img src="../public/assets/img/8.jpg" alt="img08"><h4>Scarves</h4></a></li>
     </ul>
     </div>
-    <div class="small-12 columns">
+    <div class="small-12  medium-12 large-12 columns">
     <ul>
         <li><a class="th" href="#"><img src="../public/assets/img/9.jpg" alt="img09"><h4>Casual</h4></a></li>
         <li><a class="th" href="#"><img src="../public/assets/img/10.jpg" alt="img10"><h4>Luxury</h4></a></li>
@@ -203,7 +203,7 @@
     </nav>
     </div>
 </div>
-</div> -->
+</div>
 
 
 
