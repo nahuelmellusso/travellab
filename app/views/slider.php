@@ -24,7 +24,7 @@
 
     <div id="mi-slider" class="mi-slider">
         <ul>
-            <li><a href="#"><img src="../public/assets/img/1.jpg" alt="img01"><h4>Boots</h4></a></li>
+            <li><a href="#"></a></li>
             <li><a href="#"><img src="../public/assets/img/2.jpg" alt="img02"><h4>Oxfords</h4></a></li>
             <li><a href="#"><img src="../public/assets/img/3.jpg" alt="img03"><h4>Loafers</h4></a></li>
            
@@ -59,18 +59,18 @@
             <p class="vineta-tit vineta-tit-marg">Salidas en Agosto</p>
             <p class="vineta-dia">8 dias / 7 noches</p>
             <div class="row">
-              <div class="large-8 borde-bot columns">
+              <div class="large-8  columns">
                 <p class="vineta-persona">x pers. en base doble</p>
                 <p class="vineta-precio">$Ar3300</p>
               </div>
-              <div class="large-4 borde-bot columns ">
+              <div class="large-4  columns ">
                 <a class="vineta-info" href="">+INFO</a>
               </div>
-              <div class="large-12">
-                <p>Esta oferta finaliza en </p>
-              </div>
+              
             </div>
-
+            <div class="large-12 vineta-borde-top columns">
+                <p class="vineta-oferta">Esta oferta finaliza en </p>
+            </div>
           </div>
         </div>
       </div>

@@ -1038,8 +1038,17 @@
 		padding-top: 6px;
 	}
 
-	.vineta-borde-bot{
-		border-bottom:1px solid;
-		border-bottom: black;
+	.vineta-borde-top{
+		border-top: 1px solid #BDBDBD;
+		margin-top: -16px;
+		height: 35px;
+		background-color:#F4F5F9; 
+	}
+	.vineta-oferta{
+		font-family: lato-Italic;
+		font-size: 10px;
+		color: black;
+		padding-top: 9px;
+
 	}
 }
