@@ -18,9 +18,13 @@ class usuarioController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function postLogin()
 	{
-		//
+		if (Auth::attempt( array('username' => Input::get('username'), 'password' => Input::get('password') ), true )){
+		        return Redirect::to('private/inicio');
+		    }else{
+		        return Redirect::to('private/login')->with('mensaje_login', 'Ingreso invalido');
+		    }
 	}
 
 

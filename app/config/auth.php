@@ -58,16 +58,6 @@ return array(
 	|
 	*/
 
-	'reminder' => array(
-
-		'email' => 'emails.auth.reminder',
-
-		'table' => 'password_reminders',
-
-		'expire' => 60,
-
-	),
-
 	'username' => 'username',//username a utilizar de la tabla usuarios
 	 
 	'password' => 'password',//password a utilizar de la tabla usuarios

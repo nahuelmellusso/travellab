@@ -24,7 +24,7 @@ class Usuarios extends Migration {
         DB::table('usuarios')->insert(
             array(
                 'username' => 'florencia',
-                'password' => Hash::make('123456')
+                'password' => '123456'
             )
         );
 	}

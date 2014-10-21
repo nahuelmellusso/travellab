@@ -15,7 +15,7 @@
 
 
 
-{{ Form::open(array('url' => 'cpanel/signin','class'=>'form')) }}
+<form action="usuario/login" method="post">
 <!-- <form method="post" action="{{ url('usuario/login') }} " class="form-horizontal">
  -->  <!-- CSRF Token -->
   <input type="hidden" name="csrf_token" id="csrf_token" value="{{{ Session::getToken() }}}" />
@@ -41,7 +41,7 @@
       <button type="submit" class="button">Login</button>
   <!-- ./ login button -->
   </div>
-{{ Form::close() }}
+</form>
 @stop
 
 
