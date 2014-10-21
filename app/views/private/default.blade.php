@@ -14,7 +14,7 @@
     <link href="{{{ asset('assets/css/foundation.css') }}}" rel="stylesheet">
     <link href="{{{ asset('assets/css/estilo-bend.css') }}}" rel="stylesheet">
     
-    <script src="{{{ asset('assets/js/vendor/custom.modernizr.js') }}}"></script>
+    <script src="{{{ asset('assets/js/vendor/modernizr.js') }}}"></script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -49,7 +49,7 @@
 		
 
 <!-- Javascripts -->
-<script src="{{{ asset('assets/js/vendor/zepto.js') }}}"></script>
+
 <script src="{{{ asset('assets/js/vendor/jquery.js') }}}"></script>
 <script src="{{{ asset('assets/js/foundation.min.js') }}}"></script>
 <!--

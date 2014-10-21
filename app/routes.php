@@ -3,6 +3,7 @@
 
 Route::controller('usuario', 'usuarioController');
 Route::controller('cotizar','cotizarControler');
+Route::controller('panel','CpanelController');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

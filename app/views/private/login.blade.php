@@ -16,8 +16,13 @@
 
 
 <form action="usuario/login" method="post">
-<!-- <form method="post" action="{{ url('usuario/login') }} " class="form-horizontal">
- -->  <!-- CSRF Token -->
+
+@if (Session::has('login_errors'))
+<p style="color:#FB1D1D">El nombre de usuario o contrase&ntilde;a no son correctos</p>
+@else
+<p>Introduzca nombre de usuario y contrase&ntilde;a para continuar</p>
+@endif
+
   <input type="hidden" name="csrf_token" id="csrf_token" value="{{{ Session::getToken() }}}" />
 
   <!-- Email -->

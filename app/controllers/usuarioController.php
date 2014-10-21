@@ -21,11 +21,20 @@ class usuarioController extends \BaseController {
 	public function postLogin()
 	{
 		if (Auth::attempt( array('username' => Input::get('username'), 'password' => Input::get('password') ), true )){
-		        return Redirect::to('private/inicio');
+		        return Redirect::to('panel');
 		    }else{
-		        return Redirect::to('private/login')->with('mensaje_login', 'Ingreso invalido');
+		        return Redirect::to('usuario')->with('login_errors',true);
 		    }
 	}
+
+
+	public function getLogout()
+    {
+ 
+        Auth::logout();
+        return Redirect::to('usuario')->with('mensaje','¡Has cerrado sesión correctamente!.');
+ 
+    }
 
 
 	/**
