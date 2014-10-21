@@ -22,17 +22,177 @@
     
     
 
-    <div id="mi-slider" class="mi-slider">
+    <div id="mi-slider" class="mi-slider large-12 columns">
         <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"><img src="../public/assets/img/2.jpg" alt="img02"><h4>Oxfords</h4></a></li>
-            <li><a href="#"><img src="../public/assets/img/3.jpg" alt="img03"><h4>Loafers</h4></a></li>
+            <li>
+              <div class="row">
+                <div class="large-11  columns">
+                  <div class="row">
+                    <div class="large-12 vineta">
+                      <a href="#"><img src="../public/assets/img/irlanda.jpg" alt="img09"></a>
+                      <p class="vineta-tit">San Mart&iacute;n de los Andes</p>
+                      <p class="vineta-tit vineta-tit-marg">Salidas en Agosto</p>
+                      <p class="vineta-dia">8 dias / 7 noches</p>
+                      <div class="row">
+                        <div class="large-8  columns">
+                          <p class="vineta-persona">x pers. en base doble</p>
+                          <p class="vineta-precio">$Ar3300</p>
+                        </div>
+                        <div class="large-4  columns ">
+                          <a class="vineta-info" href="">+INFO</a>
+                        </div>
+                        
+                      </div>
+                      <div class="large-12 vineta-borde-top columns">
+                          <p class="vineta-oferta">Esta oferta finaliza en </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="row">
+                <div class="large-11  columns">
+                  <div class="row">
+                    <div class="large-12 vineta">
+                      <a href="#"><img src="../public/assets/img/irlanda.jpg" alt="img09"></a>
+                      <p class="vineta-tit">San Mart&iacute;n de los Andes</p>
+                      <p class="vineta-tit vineta-tit-marg">Salidas en Agosto</p>
+                      <p class="vineta-dia">8 dias / 7 noches</p>
+                      <div class="row">
+                        <div class="large-8  columns">
+                          <p class="vineta-persona">x pers. en base doble</p>
+                          <p class="vineta-precio">$Ar3300</p>
+                        </div>
+                        <div class="large-4  columns ">
+                          <a class="vineta-info" href="">+INFO</a>
+                        </div>
+                        
+                      </div>
+                      <div class="large-12 vineta-borde-top columns">
+                          <p class="vineta-oferta">Esta oferta finaliza en </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="row">
+                <div class="large-11  columns">
+                  <div class="row">
+                    <div class="large-12 vineta">
+                      <a href="#"><img src="../public/assets/img/irlanda.jpg" alt="img09"></a>
+                      <p class="vineta-tit">San Mart&iacute;n de los Andes</p>
+                      <p class="vineta-tit vineta-tit-marg">Salidas en Agosto</p>
+                      <p class="vineta-dia">8 dias / 7 noches</p>
+                      <div class="row">
+                        <div class="large-8  columns">
+                          <p class="vineta-persona">x pers. en base doble</p>
+                          <p class="vineta-precio">$Ar3300</p>
+                        </div>
+                        <div class="large-4  columns ">
+                          <a class="vineta-info" href="">+INFO</a>
+                        </div>
+                        
+                      </div>
+                      <div class="large-12 vineta-borde-top columns">
+                          <p class="vineta-oferta">Esta oferta finaliza en </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
            
         </ul>
         <ul>
-            <li><a href="#"><img src="../public/assets/img/5.jpg" alt="img05"><h4>Belts</h4></a></li>
-            <li><a href="#"><img src="../public/assets/img/6.jpg" alt="img06"><h4>Hats & Caps</h4></a></li>
-            <li><a href="#"><img src="../public/assets/img/7.jpg" alt="img07"><h4>Sunglasses</h4></a></li>
+            <li>
+              <div class="row">
+                <div class="large-11  columns">
+                  <div class="row">
+                    <div class="large-12 vineta">
+                      <a href="#"><img src="../public/assets/img/irlanda.jpg" alt="img09"></a>
+                      <p class="vineta-tit">San Mart&iacute;n de los Andes</p>
+                      <p class="vineta-tit vineta-tit-marg">Salidas en Agosto</p>
+                      <p class="vineta-dia">8 dias / 7 noches</p>
+                      <div class="row">
+                        <div class="large-8  columns">
+                          <p class="vineta-persona">x pers. en base doble</p>
+                          <p class="vineta-precio">$Ar3300</p>
+                        </div>
+                        <div class="large-4  columns ">
+                          <a class="vineta-info" href="">+INFO</a>
+                        </div>
+                        
+                      </div>
+                      <div class="large-12 vineta-borde-top columns">
+                          <p class="vineta-oferta">Esta oferta finaliza en </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="large-11  columns">
+                  <div class="row">
+                    <div class="large-12 vineta">
+                      <a href="#"><img src="../public/assets/img/irlanda.jpg" alt="img09"></a>
+                      <p class="vineta-tit">San Mart&iacute;n de los Andes</p>
+                      <p class="vineta-tit vineta-tit-marg">Salidas en Agosto</p>
+                      <p class="vineta-dia">8 dias / 7 noches</p>
+                      <div class="row">
+                        <div class="large-8  columns">
+                          <p class="vineta-persona">x pers. en base doble</p>
+                          <p class="vineta-precio">$Ar3300</p>
+                        </div>
+                        <div class="large-4  columns ">
+                          <a class="vineta-info" href="">+INFO</a>
+                        </div>
+                        
+                      </div>
+                      <div class="large-12 vineta-borde-top columns">
+                          <p class="vineta-oferta">Esta oferta finaliza en </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="large-11  columns">
+                  <div class="row">
+                    <div class="large-12 vineta">
+                      <a href="#"><img src="../public/assets/img/irlanda.jpg" alt="img09"></a>
+                      <p class="vineta-tit">San Mart&iacute;n de los Andes</p>
+                      <p class="vineta-tit vineta-tit-marg">Salidas en Agosto</p>
+                      <p class="vineta-dia">8 dias / 7 noches</p>
+                      <div class="row">
+                        <div class="large-8  columns">
+                          <p class="vineta-persona">x pers. en base doble</p>
+                          <p class="vineta-precio">$Ar3300</p>
+                        </div>
+                        <div class="large-4  columns ">
+                          <a class="vineta-info" href="">+INFO</a>
+                        </div>
+                        
+                      </div>
+                      <div class="large-12 vineta-borde-top columns">
+                          <p class="vineta-oferta">Esta oferta finaliza en </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
             
         </ul>
         <ul>
@@ -50,31 +210,7 @@
     </div>
 
 
-    <div class="row">
-      <div class="large-10 large-offet-1 columns">
-        <div class="row">
-          <div class="large-3 vineta">
-            <a href="#"><img src="../public/assets/img/irlanda.jpg" alt="img09"></a>
-            <p class="vineta-tit">San Mart&iacute;n de los Andes</p>
-            <p class="vineta-tit vineta-tit-marg">Salidas en Agosto</p>
-            <p class="vineta-dia">8 dias / 7 noches</p>
-            <div class="row">
-              <div class="large-8  columns">
-                <p class="vineta-persona">x pers. en base doble</p>
-                <p class="vineta-precio">$Ar3300</p>
-              </div>
-              <div class="large-4  columns ">
-                <a class="vineta-info" href="">+INFO</a>
-              </div>
-              
-            </div>
-            <div class="large-12 vineta-borde-top columns">
-                <p class="vineta-oferta">Esta oferta finaliza en </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
 
 
