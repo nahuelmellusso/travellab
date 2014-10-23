@@ -1,5 +1,5 @@
 @extends('private.default')
-
+@if(Auth::check())
 {{-- Web site Title --}}
 @section('title')
 @parent
@@ -18,4 +18,5 @@
   <!-- Email -->
   
 </form>
+@endif
 @stop
