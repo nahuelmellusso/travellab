@@ -1,35 +1,27 @@
 <?php
 
 use Illuminate\Auth\UserTrait;
-use Illuminate\Auth\UserInterface;
+
 use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Auth\Reminders\RemindableInterface;
 
 
 
-Class User extends Eloquent implements UserInterface{
+Class City extends Eloquent {
  
-    protected $table = 'usuarios';
-    protected $fillable = array('username','password');
- 
+    protected $table = 'City';
+
+    protected $fillable = array('id','Country_id', 'City');
+    
+    
     // este metodo se debe implementar por la interfaz
-    public function getAuthIdentifier()
-    {
-        return $this->getKey();
-    }
+    public function country()
+        {
+            return $this->hasOne('Country');
+        }
     
     //este metodo se debe implementar por la interfaz
     // y sirve para obtener la clave al momento de validar el inicio de sesión 
-    public function getAuthPassword()
-    {
-        return $this->password;
-    }
-
-    public function getAuthLevel()
-    {
-        return $this->level;
-    }
-   
     
     public function getRememberToken() {
     return 0;

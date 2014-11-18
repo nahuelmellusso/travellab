@@ -7,13 +7,18 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 
 
 
-Class Paises extends Eloquent {
+Class Country extends Eloquent {
  
-    protected $table = 'Paises';
+    protected $table = 'Country';
+
+    protected $fillable = array('id', 'Country');
     
- 
+    
     // este metodo se debe implementar por la interfaz
-    
+    public function city()
+        {
+            return $this->belongsTo('City');
+        }
     
     //este metodo se debe implementar por la interfaz
     // y sirve para obtener la clave al momento de validar el inicio de sesión 

@@ -20,7 +20,11 @@ class usuarioController extends \BaseController {
 	 */
 	public function postLogin()
 	{
+
+		
+
 		if (Auth::attempt( array('username' => Input::get('username'), 'password' => Input::get('password') ), true )){
+
 		        return Redirect::to('panel');
 		    }else{
 		        return Redirect::to('usuario')->with('login_errors',true);

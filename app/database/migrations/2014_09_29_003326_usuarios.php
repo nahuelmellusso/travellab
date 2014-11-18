@@ -17,6 +17,7 @@ class Usuarios extends Migration {
             $tabla->increments('id');
             $tabla->string('username', 60);
             $tabla->string('password', 100);
+            $tabla->integer('level');
             $tabla->timestamps();
  
         });
@@ -24,7 +25,8 @@ class Usuarios extends Migration {
         DB::table('usuarios')->insert(
             array(
                 'username' => 'florencia',
-                'password' => '123456'
+                'password' => Hash::make('123')
+              
             )
         );
 	}

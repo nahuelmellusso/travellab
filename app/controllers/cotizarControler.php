@@ -16,7 +16,12 @@ class cotizarControler extends \BaseController {
 	public function getIndex()
 	{
 		
-		return View::make('private/cotizar');
+		$paises = Country::all();
+
+		
+		
+		
+		return View::make('private/cotizar', array('select' => $paises));
 	}
 
 
