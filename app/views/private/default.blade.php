@@ -16,6 +16,12 @@
     
     <script src="{{{ asset('assets/js/vendor/modernizr.js') }}}"></script>
 
+
+	
+	<link rel="stylesheet" href="{{{ asset('assets/css/jquery-ui.css') }}}">
+	<script src="{{{ asset('assets/js/jquery.js') }}}"></script>
+	<script src="{{{ asset('assets/js/jquery-ui.js') }}}"></script>
+	<link rel="stylesheet" href="{{{ asset('assets/css/style.css') }}}">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,6 +29,7 @@
 </head>
 
 <body>
+	
 
 
 	<div class="row">
@@ -50,7 +57,7 @@
 
 <!-- Javascripts -->
 
-<script src="{{{ asset('assets/js/vendor/jquery.js') }}}"></script>
+
 <script src="{{{ asset('assets/js/foundation.min.js') }}}"></script>
 <!--
 

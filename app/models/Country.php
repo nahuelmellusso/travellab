@@ -17,7 +17,7 @@ Class Country extends Eloquent {
     // este metodo se debe implementar por la interfaz
     public function city()
         {
-            return $this->belongsTo('City');
+            return $this->belongsTo('Cities');
         }
     
     //este metodo se debe implementar por la interfaz
