@@ -13,14 +13,21 @@
     <link href="{{{ asset('assets/css/normalize.css') }}}" rel="stylesheet">
     <link href="{{{ asset('assets/css/foundation.css') }}}" rel="stylesheet">
     <link href="{{{ asset('assets/css/estilo-bend.css') }}}" rel="stylesheet">
+     <link href="{{{ asset('assets/css/foundation.min.css') }}}" rel="stylesheet">
+	 <link href="{{{ asset('assets/foundationicons/foundation-icons.css') }}}" rel="stylesheet">
     
     <script src="{{{ asset('assets/js/vendor/modernizr.js') }}}"></script>
 
-
+	
 	
 	<link rel="stylesheet" href="{{{ asset('assets/css/jquery-ui.css') }}}">
 	<script src="{{{ asset('assets/js/jquery.js') }}}"></script>
 	<script src="{{{ asset('assets/js/jquery-ui.js') }}}"></script>
+	
+	
+	<script src="{{{ asset('assets/js/foundation.min.js') }}}"></script>
+	<script src="{{{ asset('assets/js/foundation/foundation.alert.js') }}}"></script>
+	<script src="{{{ asset('assets/js/foundation/foundation.abide.js') }}}"></script>
 	<link rel="stylesheet" href="{{{ asset('assets/css/style.css') }}}">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -58,7 +65,7 @@
 <!-- Javascripts -->
 
 
-<script src="{{{ asset('assets/js/foundation.min.js') }}}"></script>
+
 <!--
 
 <script src="js/foundation/foundation.js"></script>
@@ -94,5 +101,9 @@
 <script>
   $(document).foundation();
 </script>
+<script>
+$(document).foundation('alert','events'); 
+</script>
+
 </body>
 </html>

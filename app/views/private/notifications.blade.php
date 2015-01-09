@@ -1,8 +1,9 @@
 @if (count($errors->all()) > 0)
-<div class="alert alert-error alert-block">
-	<button type="button" class="close" data-dismiss="alert">&times;</button>
+<div data-alert class="alert-box large-12 columns">
+	
 	<h4>Error</h4>
-	Please check the form bellow for errors
+	Por favor, consulte el siguiente listado para corregir los  errores
+  <a href="#" class="close">&times;</a>
 </div>
 @endif
 
@@ -14,14 +15,14 @@
 @endif
 
 @if ($message = Session::get('error'))
-<div data-alert class="alert-box alert">
+<div data-alert class="alert-box">
   {{{ $message }}}
   <a href="#" class="close">&times;</a>
 </div>
 @endif
 
 @if ($message = Session::get('warning'))
-<div data-alert class="alert-box .alert">
+<div data-alert class="alert-box ">
   {{{ $message }}}
   <a href="#" class="close">&times;</a>
 </div>
@@ -33,3 +34,6 @@
   <a href="#" class="close">&times;</a>
 </div>
 @endif
+
+
+

@@ -21,3 +21,25 @@
 	height:100%;
 	margin-top: 50px;
 }
+
+.alert-box { transition: all 1ms ease;}
+
+.margin-top{
+	margin-top: 20px !important;
+}
+
+.oculto{
+	display: none!important;
+}
+
+.fi-plus{
+	font-size: 30px;
+	
+}
+
+.plus{
+	margin-top: 25px
+}
+
+}
+

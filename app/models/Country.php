@@ -11,14 +11,11 @@ Class Country extends Eloquent {
  
     protected $table = 'Country';
 
-    protected $fillable = array('id', 'Country');
+    protected $fillable = array('id', 'country');
     
     
     // este metodo se debe implementar por la interfaz
-    public function city()
-        {
-            return $this->belongsTo('Cities');
-        }
+   
     
     //este metodo se debe implementar por la interfaz
     // y sirve para obtener la clave al momento de validar el inicio de sesión 

@@ -4,6 +4,12 @@
 Route::controller('usuario', 'usuarioController');
 Route::controller('cotizar','cotizarControler');
 Route::controller('panel','CpanelController');
+Route::controller('quienes','QuienessomosController');
+Route::controller('contacto','contactoController');
+Route::controller('resultado','resultadoController');
+Route::controller('/','principalController');
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -27,18 +33,8 @@ Route::controller('panel','CpanelController');
 
 
 
-Route::get('/', function()
-{
-	return View::make('seguros');
-});
 
-
-
-
-Route::get('/', function()
-{
-	return View::make('slider');
-});
+;
 
 
 

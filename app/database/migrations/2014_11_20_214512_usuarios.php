@@ -17,6 +17,7 @@ class Usuarios extends Migration {
             $tabla->increments('id');
             $tabla->string('username', 60);
             $tabla->string('password', 100);
+            $tabla->string('email',200);
             $tabla->integer('level');
             $tabla->timestamps();
  
